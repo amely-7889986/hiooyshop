@@ -1,0 +1,59 @@
+@import "lib/all.less";
+@support-ie-version: 10;
+@default-font-size: 14px;
+@support-ie-version: 7;
+@use-autoprefixer: false;
+@support-html5: true;
+@default-text-color:#6c6c6c;
+@default-input-placeholder-color:#b4b5b7;
+@default-base-font-family:"Microsoft YaHei", Arial, sans-serif;
+@default-heading-font-family:"Helvetica Neue", Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+@default-old-ie-heading-font-family:"Microsoft YaHei", Arial, sans-serif;
+@default-code-font-family:Monaco, Consolas, monospace;
+@default-border-radius:5px;
+@default-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25);
+// global scope
+.global-normalize-opentype();
+// global scope
+.global-reset();
+// global scope
+.reset-html5();
+// // global scope
+// .global-normalize();
+body {
+        font-family: "Microsoft YaHei";
+        color: #2c3444;
+        font-size: 14px;
+        background: #f5f2f2;
+        min-width: 1180px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.hover a:hover{
+    .col-gold();
+    text-decoration: underline !important;
+}
+select,input{
+    font-family: inherit;
+}
+// float layout
+.l-left{
+    float: left;
+}
+.l-right{
+    float: right;
+}
+.l-float{
+    .clearfix();
+}
+.dis-b{
+    display: block !important;
+}
+.dis-i{
+    display: inline-block !important;
+}
+.pos-r{
+    position: relative;
+}
