@@ -51,10 +51,16 @@
   background-color: #434343;
 }
 .bg-hui {
-  background-color: #f5f2f2 !important;
+  background-color: #efefef !important;
 }
 .bg-dhui {
   background-color: #aaa !important;
+}
+.bg-gold {
+  background-color: #dfb15b;
+}
+.bg-red {
+  background-color: #f51242;
 }
 .bg-fooder {
   background-color: #b5ab9f;
@@ -221,6 +227,27 @@
   color: #fff;
   background-color: #f7ab00;
   border-color: #1291f1;
+}
+.banner {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.banner .swiper-slide {
+  text-align: center;
+}
+.banner .swiper-slide > a {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 350px;
+}
+.banner img {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
 }
 /*! normalize-opentype v0.1.2 | MIT License | kennethormandy.com/journal/normalize-opentype-css */
 /**
@@ -642,8 +669,97 @@ input:-ms-input-placeholder {
   width: 100%;
 }
 .main {
-  width: 1000px;
+  width: 1090px;
   margin: 0 auto;
+}
+.topnav {
+  display: block;
+  overflow: hidden;
+  height: 34px;
+  line-height: 34px;
+  background-color: #efefef !important;
+  border-bottom: 1px solid #dd;
+  font-size: 12px;
+}
+.topnav span {
+  display: inline-block;
+}
+.topnav span > a {
+  padding: 0 10px;
+  position: relative;
+}
+.topnav span > a i.point {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #f51242;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  font-style: normal;
+  text-align: center;
+  right: 1px;
+}
+.topnav span > a.borderight {
+  border-right: 1px solid #ddd;
+}
+.logobox {
+  display: block;
+  overflow: hidden;
+  background-color: #fff;
+  height: 94px;
+  line-height: 94px;
+}
+.logobox img {
+  vertical-align: middle;
+}
+.navbox {
+  display: block;
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  background-color: #434343;
+  color: #fff;
+}
+.navbox li {
+  display: block;
+  float: left;
+  width: 150px;
+  font-size: 16px;
+  text-align: center;
+}
+.navbox li > a {
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 18px;
+  vertical-align: middle;
+  line-height: 16px;
+  position: relative;
+}
+.navbox li > a:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  right: 0;
+  background: #999;
+  overflow: hidden;
+}
+.navbox li:hover,
+.navbox li:active,
+.navbox li.active {
+  background-color: #dfb15b;
+}
+.navbox li:hover a:after,
+.navbox li:active a:after,
+.navbox li.active a:after {
+  display: none;
+}
+.navbox li:last-child a:after,
+.navbox li.before a:after {
+  display: none;
 }
 .formbox {
   display: block;
@@ -1051,8 +1167,8 @@ input:-ms-input-placeholder {
 .w1020 {
   width: 1020px;
 }
-.h580 {
-  height: 580px;
+.h350 {
+  height: 350px;
 }
 .h378 {
   height: 378px;
