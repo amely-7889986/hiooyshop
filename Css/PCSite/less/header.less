@@ -1,6 +1,5 @@
 .topnav{
 	display: block;
-	overflow: hidden;
 	height: 34px;
 	line-height: 34px;
 	.bg-hui;
@@ -11,6 +10,7 @@
 		>a{
 			padding: 0 10px;
 			position: relative;
+			height: 34px;
 			i.point{
 				position: absolute;
 				border-radius: 50%;
@@ -27,6 +27,83 @@
 		>a.borderight{
 			border-right: 1px solid #ddd;
 		}
+	}
+	.dropdown{
+		position: relative;
+		>a{
+			position: relative;
+		}
+		.dropdown-toggle{
+			.caret {
+			    display: inline-block;
+			    width: 0;
+			    height: 0;
+			    vertical-align: top;
+			    border-top: 4px solid #999;
+			    border-right: 4px solid transparent;
+			    border-left: 4px solid transparent;
+			    content: "";
+			    -webkit-transform: rotate(0);
+			    -webkit-transition: left .2s linear,-webkit-transform .2s linear;
+			    -moz-transform: rotate(0);
+			    -moz-transition: left .2s linear,-moz-transform .5s linear;
+			    -o-transform: rotate(0);
+			    -o-transition: left .2s linear,-o-transform .2s linear;
+			    margin-top: 16px;
+			    margin-left: 4px;
+			}
+		}
+		.dropdown-menu{
+		    position: absolute;
+		    top: 100%;
+		    z-index: 1000;
+		    display: none;
+		    float: left;
+		    min-width: 160px;
+		    padding: 10px;
+		    list-style: none;
+		    background-color: #fff;
+		    -webkit-border-radius: 0;
+		    -moz-border-radius: 0;
+		    border-radius: 0;
+		    -webkit-background-clip: padding-box;
+		    -moz-background-clip: padding;
+		    background-clip: padding-box;
+		    left: auto;
+		    right: 0;
+		    margin-top: -1px;
+		    font-style: normal;
+		    border: 1px solid #ddd;
+
+		}
+	}
+	.open{
+		>.dropdown-menu {
+		    display: block;
+	    }
+	    .dropdown-toggle {
+	    	display: block;
+	    	height: 34px;
+	    	line-height: 34px;
+		    color: #d09e40;
+		    background-color: #fff;
+		    border-color: #999;
+		    border-left: 1px solid #ccc;
+		    border-right: 1px solid #ccc;
+		    z-index: 1001;
+		    .caret{
+		    	border-top-color: #999;
+			    border-bottom-color: #999;
+			    opacity: 1;
+		    }
+	    }
+	    .dropdown-toggle:focus,.dropdown-toggle:hover{
+	    	.caret{
+    		    -webkit-transform: rotate(180deg);
+			    -moz-transform: rotate(180deg);
+			    -o-transform: rotate(180deg);
+	    	}
+	    }
 	}
 }
 .logobox{

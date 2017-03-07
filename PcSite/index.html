@@ -31,16 +31,16 @@
                     <span><a href="" class="borderight">会员中心</a></span>
                     <span><a href="" class="borderight">我的购物车<i class="point">1</i></a></span>
                     <span><a href="" class="borderight">我的收藏</a></span>
-                    <span><a href="" class="borderight">客服服务</a></span>
-                    <span><a href="" class="borderight">消费者告知书</a></span>
+                    <span class="dropdown"><a data-toggle="dropdown" href="#"  class="borderight dropdown-toggle">客服服务<i class="caret"></i></a><i class="dropdown-menu">客服电话：400-020-0861</i></span>
+                    <span><a class="borderight">消费者告知书</a></span>
                     <span><a href="">手机版</a></span>
                 </div>
             </div>
         </div>
         <div class="logobox">
             <div class="main">
-                <div class="l-left"><img src="../UploadFile/logo.png" alt=""></div>
-                <div class="l-right"><img src="../UploadFile/claim.png" alt=""></div>
+                <div class="l-left"><img src="../Images/logo.png" alt=""></div>
+                <div class="l-right"><img src="../Images/claim.png" alt=""></div>
             </div>
         </div>
         <div class="navbox">
@@ -78,7 +78,21 @@
                 </div>
               </div>
               <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
             </div>
+        </div>
+        <div class="column-tit main">
+            <img src="../Images/banner-131.png" alt="">
+        </div>
+        <div class="column-hotsale main">
+            
+        </div>
+        <div class="column-tit main">
+            <img src="../Images/banner-132.png" alt="">
+        </div>
+        <div class="column-tit main">
+            <img src="../Images/banner-133.png" alt="">
         </div>
     </div>
 
@@ -88,8 +102,19 @@
     var swiper = new Swiper('.swiper-container', {
       pagination: '.swiper-pagination',
       paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
       spaceBetween: 30
     });
   </script>
+  <script type="text/javascript">
+    $(function(){
+        $(".dropdown").mouseover(function(){
+            $(this).addClass("open");
+        }).mouseleave(function(){
+            $(this).removeClass("open");
+        });
+    });
+</script>
 </body>
 </html>

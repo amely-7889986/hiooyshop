@@ -249,6 +249,27 @@
   width: auto;
   margin: 0 auto;
 }
+.banner .swiper-button-prev,
+.banner .swiper-button-next {
+  width: 32px;
+  height: 63px;
+}
+.banner .swiper-button-prev {
+  background: url(../../Images/left-arrow.png) center center no-repeat;
+}
+.banner .swiper-button-next {
+  background: url(../../Images/right-arrow.png) center center no-repeat;
+}
+.column-tit {
+  display: block;
+  overflow: hidden;
+  height: 47px;
+  padding: 34px 0 12px 0;
+}
+.column-tit img {
+  width: 100%;
+  vertical-align: top;
+}
 /*! normalize-opentype v0.1.2 | MIT License | kennethormandy.com/journal/normalize-opentype-css */
 /**
      * 1. Turn on kerning, standard ligatures, and proportional, oldstyle numerals
@@ -674,7 +695,6 @@ input:-ms-input-placeholder {
 }
 .topnav {
   display: block;
-  overflow: hidden;
   height: 34px;
   line-height: 34px;
   background-color: #efefef !important;
@@ -687,6 +707,7 @@ input:-ms-input-placeholder {
 .topnav span > a {
   padding: 0 10px;
   position: relative;
+  height: 34px;
 }
 .topnav span > a i.point {
   position: absolute;
@@ -702,6 +723,77 @@ input:-ms-input-placeholder {
 }
 .topnav span > a.borderight {
   border-right: 1px solid #ddd;
+}
+.topnav .dropdown {
+  position: relative;
+}
+.topnav .dropdown > a {
+  position: relative;
+}
+.topnav .dropdown .dropdown-toggle .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #999;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  -webkit-transform: rotate(0);
+  -webkit-transition: left 0.2s linear, -webkit-transform 0.2s linear;
+  -moz-transform: rotate(0);
+  -moz-transition: left 0.2s linear, -moz-transform 0.5s linear;
+  -o-transform: rotate(0);
+  -o-transition: left 0.2s linear, -o-transform 0.2s linear;
+  margin-top: 16px;
+  margin-left: 4px;
+}
+.topnav .dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 10px;
+  list-style: none;
+  background-color: #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  left: auto;
+  right: 0;
+  margin-top: -1px;
+  font-style: normal;
+  border: 1px solid #ddd;
+}
+.topnav .open > .dropdown-menu {
+  display: block;
+}
+.topnav .open .dropdown-toggle {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  color: #d09e40;
+  background-color: #fff;
+  border-color: #999;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  z-index: 1001;
+}
+.topnav .open .dropdown-toggle .caret {
+  border-top-color: #999;
+  border-bottom-color: #999;
+  opacity: 1;
+}
+.topnav .open .dropdown-toggle:focus .caret,
+.topnav .open .dropdown-toggle:hover .caret {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 .logobox {
   display: block;
