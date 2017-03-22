@@ -119,3 +119,345 @@
 		border-color: #dfb15b;
 	}
 }
+.column-newsale{
+	display: block;
+	height: 324px;
+	.box-shadow;
+	.bg-bai;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	.picbox{
+		display: block;
+		width: 524px;
+		height: 324px;
+		.l-left;
+		overflow: hidden;
+		img{
+			width: 100%;
+			vertical-align: top;
+		}
+	}
+	.infobox{
+		display: block;
+		width: 534px;
+		height: 294px;
+		padding: 15px;
+		.l-left;
+		overflow: hidden;
+		.header{
+			display: block;
+			overflow: hidden;
+			height: 32px;
+			line-height: 32px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #ddd;
+			.country{
+				>i.icon{
+					margin-right: 8px;
+				}
+			}
+		}
+		.sec{
+			display: block;
+			overflow: hidden;
+			padding: 12px 0;
+			height: 164px;
+			h3{
+				height: 40px;
+				.font24;
+				line-height: 40px;
+				overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			}
+			.detail{
+				.font16;
+			    margin-top: 10px;
+			    .col-dhui;
+			}
+		}
+		.price{
+			display: block;
+			overflow: hidden;
+			.pricesec{
+				width: 340px;
+				.pricenum{
+					display: block;
+					overflow: hidden;
+					>span{
+						display: block;
+						overflow: hidden;
+						margin-bottom: 10px;
+					}
+				}
+				.discount{
+					display: block;
+					width: 60px;
+					height: 28px;
+					line-height: 28px;
+					margin-left: 12px;
+					border: 1px solid #ff0023;
+					.col-red;
+					.text-ac;
+				}
+			}
+			.buybtn{
+				display: block;
+				overflow: hidden;
+				>a{
+					display: inline-block;
+					padding: 12px 18px;
+					overflow: hidden;
+					.font24;
+				}
+			}
+		}
+	}
+}
+div:hover.column-newsale,div:active.column-newsale{
+	border: 1px solid #dfb15b;
+}
+.prolist{
+	display: block;
+	margin-bottom: 12px;
+}
+.product{
+	display: block;
+	overflow: hidden;
+	.prow{
+		display: block;
+		overflow: hidden;
+		width: 1100px;
+		margin-bottom: 6px;
+		.probox{
+			display: block;
+			.bg-bai;
+			padding: 16px;
+			width: 268px;
+			height: 352px;
+			.l-left;
+			margin-right: 6px;
+			border: 1px solid #fff;
+			box-sizing: border-box;
+			.pic{
+				display: block;
+				width: 100%;
+				height: 234px;
+				line-height: 234px;
+				background-color: #aaa;
+				.text-ac;
+				position: relative;
+				img{
+					max-width: 100%;
+					height: auto;
+					vertical-align: middle;
+				}
+				.sold-out{
+					position: absolute;
+					width: 100%;
+					height: 234px;
+					top: 0;
+					.text-ac;
+					img{
+						max-width: 100%;
+					}
+				}
+			}
+			.info{
+				display: block;
+				overflow: hidden;
+				.protitle{
+					display: block;
+					margin: 6px 0;
+					h3{
+						height: 32px;
+						line-height: 16px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						display: -webkit-box;
+					    -webkit-line-clamp: 2;
+					    -webkit-box-orient: vertical;
+					}
+				}
+				.pricebox{
+					display: block;
+					overflow: hidden;
+					.price{
+						width: 140px;
+						>span{
+							display: block;
+							overflow: hidden;
+							line-height: 20px;
+						}
+					}
+					.country{
+						display: block;
+						overflow: hidden;
+						width: 20px;
+						height: 20px;
+						margin-top: 4px;
+						i.icon{
+							border-radius: 50%;
+							display: block;
+							overflow: hidden;
+							img{
+								width: 100%;
+								height: 100%;
+								vertical-align: top;
+							}
+						}
+					}
+				}
+			}
+		}
+		div:hover.probox,div:active.probox,div.active.probox{
+			border: 1px solid #dfb15b;
+		}
+		.probox-tit{
+			isplay: block;
+			.bg-bai;
+			width: 268px;
+			height: 352px;
+			.l-left;
+			margin-right: 6px;
+			box-sizing: border-box;
+			overflow: hidden;
+			.text-ac;
+			img{
+				height: 100%;
+			}
+		}
+	}
+}
+.list-tab{
+	display: block;
+	position: relative;
+	border-bottom: 5px solid #ddd;
+	padding-top: 20px;
+	height: 50px;
+	line-height: 50px;
+	z-index: 9;
+	.titlepic{
+		display: block;
+		overflow: hidden;
+		width: 274px;
+		.l-left;
+	}
+	.tab-box{
+		display: block;
+		overflow: hidden;
+		position: absolute;
+		left: 274px;
+		li{
+			display: inline-block;
+			width: 140px;
+			.l-left;
+			.text-ac;
+			.font16;
+		}
+		li.active,li:hover,li:active{
+			border-bottom: 5px solid #dfb15b;
+		}
+		li.line{
+			display: inline-block;
+			height: 20px;
+			width: 1px;
+			background-color: #ddd;
+			margin-top: 15px;
+		}
+	}
+}
+
+/* 商品详情 */
+.prosec{
+	display: block;
+	overflow: hidden;
+	padding-top: 34px;
+}
+.pro-infopic{
+	.view .swiper-container1{
+		width: 385px;
+		height: 385px;
+		position: relative;
+		border: 1px solid #ddd;
+		display: block;
+		overflow: hidden;
+		.swiper-slide{
+			.l-left;
+		}
+		img{
+			width: 100%;
+			vertical-align: top;
+		}
+	}
+	// .view .arrow-left {
+	// 	background: url(../../Images/slides-arr2.png) no-repeat left top;
+	// 	position: absolute;
+	// 	left: 10px;
+	// 	top: 50%;
+	// 	margin-top: -25px;
+	// 	width: 28px;
+	// 	height: 51px;
+	// 	z-index: 10;
+	// }
+	// .view .arrow-right {
+	// 	background: url(../../Images/slides-arr2.png) no-repeat left bottom;
+	// 	position: absolute;
+	// 	right: 10px;
+	// 	top: 50%;
+	// 	margin-top: -25px;
+	// 	width: 28px;
+	// 	height: 51px;
+	// 	z-index: 10;
+	// }
+	.preview {
+		width: 385px;
+		margin-top: 10px;
+		position: relative;
+	}
+	.preview .swiper-container2{
+		width: 338px;
+		height: 60px;
+		margin-left: 24px;
+		position: relative;
+		overflow: hidden;
+	}
+	.preview .swiper-slide {
+		width: 60px;
+		height: 60px;
+		.l-left;
+		margin-right: 8px;
+		box-sizing: border-box;
+		img{
+			width: 100%;
+			vertical-align: top;
+			border: 1px solid #ddd;
+			box-sizing: border-box;
+		}
+	}
+	.preview .slide6 {
+		width: 60px;
+	}
+	.preview .arrow-left {
+		background: url(../../Images/slides-arr2.png) no-repeat left bottom;
+		position: absolute;
+		left: 0;
+		width: 13px;
+		height: 24px;
+		z-index: 10;
+		margin: 18px 0;
+	}
+	.preview .arrow-right {
+		background: url(../../Images/slides-arr2.png) no-repeat right bottom;
+		position: absolute;
+		right: 0;
+		width: 13px;
+		height: 24px;
+		z-index: 10;
+		margin: 18px 0;
+	}
+	.preview .active-nav img{
+		box-sizing: border-box;
+		border-color: #aaa;
+	}
+}

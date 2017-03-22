@@ -350,6 +350,330 @@
 .column-hotsale li.active {
   border-color: #dfb15b;
 }
+.column-newsale {
+  display: block;
+  height: 324px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.column-newsale .picbox {
+  display: block;
+  width: 524px;
+  height: 324px;
+  float: left;
+  overflow: hidden;
+}
+.column-newsale .picbox img {
+  width: 100%;
+  vertical-align: top;
+}
+.column-newsale .infobox {
+  display: block;
+  width: 534px;
+  height: 294px;
+  padding: 15px;
+  float: left;
+  overflow: hidden;
+}
+.column-newsale .infobox .header {
+  display: block;
+  overflow: hidden;
+  height: 32px;
+  line-height: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.column-newsale .infobox .header .country > i.icon {
+  margin-right: 8px;
+}
+.column-newsale .infobox .sec {
+  display: block;
+  overflow: hidden;
+  padding: 12px 0;
+  height: 164px;
+}
+.column-newsale .infobox .sec h3 {
+  height: 40px;
+  font-size: 24px;
+  line-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.column-newsale .infobox .sec .detail {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #7c7c7d;
+}
+.column-newsale .infobox .price {
+  display: block;
+  overflow: hidden;
+}
+.column-newsale .infobox .price .pricesec {
+  width: 340px;
+}
+.column-newsale .infobox .price .pricesec .pricenum {
+  display: block;
+  overflow: hidden;
+}
+.column-newsale .infobox .price .pricesec .pricenum > span {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.column-newsale .infobox .price .pricesec .discount {
+  display: block;
+  width: 60px;
+  height: 28px;
+  line-height: 28px;
+  margin-left: 12px;
+  border: 1px solid #ff0023;
+  color: #ff0023;
+  text-align: center;
+}
+.column-newsale .infobox .price .buybtn {
+  display: block;
+  overflow: hidden;
+}
+.column-newsale .infobox .price .buybtn > a {
+  display: inline-block;
+  padding: 12px 18px;
+  overflow: hidden;
+  font-size: 24px;
+}
+div:hover.column-newsale,
+div:active.column-newsale {
+  border: 1px solid #dfb15b;
+}
+.prolist {
+  display: block;
+  margin-bottom: 12px;
+}
+.product {
+  display: block;
+  overflow: hidden;
+}
+.product .prow {
+  display: block;
+  overflow: hidden;
+  width: 1100px;
+  margin-bottom: 6px;
+}
+.product .prow .probox {
+  display: block;
+  background-color: #fff;
+  padding: 16px;
+  width: 268px;
+  height: 352px;
+  float: left;
+  margin-right: 6px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+.product .prow .probox .pic {
+  display: block;
+  width: 100%;
+  height: 234px;
+  line-height: 234px;
+  background-color: #aaa;
+  text-align: center;
+  position: relative;
+}
+.product .prow .probox .pic img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.product .prow .probox .pic .sold-out {
+  position: absolute;
+  width: 100%;
+  height: 234px;
+  top: 0;
+  text-align: center;
+}
+.product .prow .probox .pic .sold-out img {
+  max-width: 100%;
+}
+.product .prow .probox .info {
+  display: block;
+  overflow: hidden;
+}
+.product .prow .probox .info .protitle {
+  display: block;
+  margin: 6px 0;
+}
+.product .prow .probox .info .protitle h3 {
+  height: 32px;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.product .prow .probox .info .pricebox {
+  display: block;
+  overflow: hidden;
+}
+.product .prow .probox .info .pricebox .price {
+  width: 140px;
+}
+.product .prow .probox .info .pricebox .price > span {
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.product .prow .probox .info .pricebox .country {
+  display: block;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+}
+.product .prow .probox .info .pricebox .country i.icon {
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+}
+.product .prow .probox .info .pricebox .country i.icon img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.product .prow div:hover.probox,
+.product .prow div:active.probox,
+.product .prow div.active.probox {
+  border: 1px solid #dfb15b;
+}
+.product .prow .probox-tit {
+  isplay: block;
+  background-color: #fff;
+  width: 268px;
+  height: 352px;
+  float: left;
+  margin-right: 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+.product .prow .probox-tit img {
+  height: 100%;
+}
+.list-tab {
+  display: block;
+  position: relative;
+  border-bottom: 5px solid #ddd;
+  padding-top: 20px;
+  height: 50px;
+  line-height: 50px;
+  z-index: 9;
+}
+.list-tab .titlepic {
+  display: block;
+  overflow: hidden;
+  width: 274px;
+  float: left;
+}
+.list-tab .tab-box {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 274px;
+}
+.list-tab .tab-box li {
+  display: inline-block;
+  width: 140px;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+}
+.list-tab .tab-box li.active,
+.list-tab .tab-box li:hover,
+.list-tab .tab-box li:active {
+  border-bottom: 5px solid #dfb15b;
+}
+.list-tab .tab-box li.line {
+  display: inline-block;
+  height: 20px;
+  width: 1px;
+  background-color: #ddd;
+  margin-top: 15px;
+}
+/* 商品详情 */
+.prosec {
+  display: block;
+  overflow: hidden;
+  padding-top: 34px;
+}
+.pro-infopic .view .swiper-container1 {
+  width: 385px;
+  height: 385px;
+  position: relative;
+  border: 1px solid #ddd;
+  display: block;
+  overflow: hidden;
+}
+.pro-infopic .view .swiper-container1 .swiper-slide {
+  float: left;
+}
+.pro-infopic .view .swiper-container1 img {
+  width: 100%;
+  vertical-align: top;
+}
+.pro-infopic .preview {
+  width: 385px;
+  margin-top: 10px;
+  position: relative;
+}
+.pro-infopic .preview .swiper-container2 {
+  width: 338px;
+  height: 60px;
+  margin-left: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.pro-infopic .preview .swiper-slide {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+.pro-infopic .preview .swiper-slide img {
+  width: 100%;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.pro-infopic .preview .slide6 {
+  width: 60px;
+}
+.pro-infopic .preview .arrow-left {
+  background: url(../../Images/slides-arr2.png) no-repeat left bottom;
+  position: absolute;
+  left: 0;
+  width: 13px;
+  height: 24px;
+  z-index: 10;
+  margin: 18px 0;
+}
+.pro-infopic .preview .arrow-right {
+  background: url(../../Images/slides-arr2.png) no-repeat right bottom;
+  position: absolute;
+  right: 0;
+  width: 13px;
+  height: 24px;
+  z-index: 10;
+  margin: 18px 0;
+}
+.pro-infopic .preview .active-nav img {
+  box-sizing: border-box;
+  border-color: #aaa;
+}
 /*! normalize-opentype v0.1.2 | MIT License | kennethormandy.com/journal/normalize-opentype-css */
 /**
      * 1. Turn on kerning, standard ligatures, and proportional, oldstyle numerals
@@ -768,6 +1092,128 @@ input::-moz-placeholder {
 }
 input:-ms-input-placeholder {
   color: #b4b5b7 !important;
+}
+.bottom-banner {
+  display: block;
+  overflow: hidden;
+  height: 80px;
+  line-height: 80px;
+}
+.bottom-banner img {
+  vertical-align: middle;
+}
+.footer {
+  display: block;
+  overflow: hidden;
+}
+.footer .friendlink {
+  display: block;
+  overflow: hidden;
+  padding: 8px 0;
+  color: #666;
+  line-height: 32px;
+}
+.footer .friendlink .tit {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.footer .friendlink .linknav li {
+  float: left;
+  margin-right: 8px;
+}
+.footer .friendlink .linknav li:hover {
+  color: #d09e40;
+}
+.footer .footnav {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+}
+.footer .footnav hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+.footer .footnav .footnavbox {
+  text-align: center;
+  font-size: 12px;
+}
+.footer .footnav .footnavbox > a {
+  margin: 0 8px;
+}
+.footer .footnav .footnavbox > a:hover,
+.footer .footnav .footnavbox > a:active {
+  color: #d09e40;
+}
+.footer .copyright {
+  line-height: 32px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 32px;
+}
+/*gotop*/
+.cbbfixed {
+  position: fixed;
+  right: 10px;
+  transition: bottom ease .3s;
+  bottom: -115px;
+  z-index: 3;
+  cursor: pointer;
+}
+.cbbfixed .cbbtn {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.cbbfixed .gotop {
+  transition: background-color ease 0.3s;
+  margin-top: 1px;
+}
+.cbbfixed .gotop .up-icon {
+  float: left;
+  margin: 14px 0 0 9px;
+  width: 50px;
+  height: 50px;
+  background: url(../../Images/gotop.png);
+}
+.cbbfixed .gotop:hover {
+  opacity: .9;
+}
+.cbbfixed .cweixin div {
+  background: #ffffff url(../../Images/code.png) center center no-repeat;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: -110px;
+  top: -100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  opacity: 0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  transform-origin: 100% 70%;
+  -webkit-transform-origin: 100% 70%;
+  transition: transform ease .3s,opacity ease .3s;
+  -webkit-transition: all ease .3s;
+  display: none\0;
+  *display: none;
+}
+.cbbfixed .cweixin:hover div {
+  display: block;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  opacity: 1;
+  *display: block;
+}
+.cbbfixed .cweixin .weixin-icon {
+  float: left;
+  margin: 12px 0 0 11px;
+  width: 50px;
+  height: 50px;
+  background: url(../../Images/gowechat.png);
 }
 .container {
   width: 100%;
