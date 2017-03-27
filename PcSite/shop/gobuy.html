@@ -74,67 +74,145 @@
                         <span class="idcode">身份证号：441502************</span>
                     </div>
                 </div>
+                <div class="receiver-change receiver">
+                    <div class="tit">收货人信息</div>
+                    <div class="address-list">
+                        <input type="radio" class="l-left">
+                        <span class="name">张楚</span>
+                        <span class="address">广东省　广州市　白云区　广州大道北</span>
+                        <span class="phone">18402003361</span>
+                        <span class="idcode">身份证号：441502************</span>
+                        <a href="javascript:void(0)" class="">[修改]</a>
+                        <a href="javascript:void(0)" class="col-red">[删除]</a>
+                    </div>
+                    <div class="address-list">
+                        <input type="radio" class="l-left">
+                        <span class="name">使用新地址</span>
+                    </div>
+                    <div class="addressform">
+                        <dl>
+                            <dt>
+                                <i class="notice">*</i><span>收货人姓名：</span>
+                            </dt>
+                            <dd>
+                                <input type="text">
+                                <p class="col-dhui font12">姓名要与身份证上一致，否则购买跨境商品会耽误您的收件时间</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="notice">*</i><span>所在地区：</span>
+                            </dt>
+                            <dd>
+                                <select name="" id="" class="l-left">
+                                    <option value="">--请选择--</option>
+                                    <option value="">广东省</option>
+                                    <option value="">广西省</option>
+                                </select>
+                                <select name="" id="" class="l-left">
+                                    <option value="">--请选择--</option>
+                                    <option value="">广州市</option>
+                                    <option value="">深圳市</option>
+                                </select>
+                                <select name="" id="" class="l-left">
+                                    <option value="">--请选择--</option>
+                                    <option value="">白云区</option>
+                                    <option value="">天河区</option>
+                                </select>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="notice">*</i><span>详细地址：</span>
+                            </dt>
+                            <dd>
+                                <input type="text" style="width: 400px;">
+                                <p class="col-dhui font12">请填写真实地址，不需要重复填写所在地区</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="notice">*</i><span>手机号码：</span>
+                            </dt>
+                            <dd>
+                                <input type="text" style="width: 200px;">
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="notice">*</i><span>身份证：</span>
+                            </dt>
+                            <dd>
+                                <input type="text" style="width: 400px;">
+                                <p class="col-dhui font12">若购买跨境产品，必须填写身份证</p>
+                            </dd>
+                        </dl>
+                        <div class="formbtn">
+                            <a href="javascript:void(0)" class="btn-address">保存收货人信息</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="shoplist">
                     <p class="tit">商品清单</p>
                     <table>
-                        <tr>
+                        <tr class="shoplist-tit">
                             <td width="780" class="fontw6 font12 col-dhui text-ac">商品</td>
                             <td width="120" class="fontw6 font12 col-dhui text-ac">单价(元)</td>
                             <td width="120" class="fontw6 font12 col-dhui text-ac">数量</td>
                             <td width="120" class="fontw6 font12 col-dhui text-ac">小计(元)</td>
                         </tr>
-                        <tr>
-                            <td colspan="4">店铺：海印优选</td>
+                        <tr class="storename">
+                            <td colspan="4" class="fontw6">店铺：海印优选</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="shopgood">
+                            <td width="780">
                                 <div class="pic"><img src="../../UploadFile/pro1.jpg" alt=""></div>
-                                <a href="../product/info.html" class="">【2罐】美国Gerber嘉宝 1段大米米粉 227g 宝宝辅食保税区直发</a>
+                                <a href="../product/info.html" class="goodtit">【2罐】美国Gerber嘉宝 1段大米米粉 227g 宝宝辅食保税区直发</a>
                             </td>
-                            <td>85.00</td>
-                            <td>1</td>
-                            <td>85.00</td>
+                            <td width="120" class="text-ac">85.00</td>
+                            <td width="120" class="text-ac">1</td>
+                            <td width="120" class="text-ac">85.00</td>
                         </tr>
-                        <tr>
+                        <tr class="goodtext">
                             <td colspan="4">
                                 <span class="l-left">买家留言：</span>
-                                <textarea name="" id="" cols="30" rows="1" class="l-left"></textarea>
+                                <textarea name="" id="" cols="50" rows="1" class="l-left" placeholder="选填：对本次交易的说明"></textarea>
                             </td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td class="text-ar col-hui">运费：</td>
-                            <td class="col-hui text-ar">0.00元</td>
+                        <tr class="paymoney">
+                            <td width="780"></td>
+                            <td width="120"></td>
+                            <td width="120" class="text-ar col-hui">运费：</td>
+                            <td width="120" class="col-hui text-ar">0.00元</td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td class="text-ar">商品金额：</td>
-                            <td class="col-dhui text-ar">85.00元</td>
+                        <tr class="paymoney">
+                            <td width="780"></td>
+                            <td width="120"></td>
+                            <td width="120" class="text-ar">商品金额：</td>
+                            <td width="120" class="col-dhui text-ar">85.00元</td>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td class="fontw6 text-ar">本店合计：</td>
-                            <td class="fontw6 text-ar">85.00元</td>
+                        <tr class="paymoney">
+                            <td width="780"></td>
+                            <td width="120"></td>
+                            <td width="120" class="fontw6 text-ar">本店合计：</td>
+                            <td width="120" class="fontw6 text-ar">85.00元</td>
                         </tr>
                     </table>
                 </div>
                 <div class="goodbtnbox">
                     <div class="good-price">
-                        <span class="l-left col-hui font12">优惠：</span>
-                        <select name="" id="" class="l-left">
+                        <span class="l-right col-hui">- 0.00 元</span>
+                        <select name="" id="" class="l-right">
                             <option value="">-不用优惠-</option>
                             <option value="">-省10元，送你了-</option>
                             <option value="">-省10元，送你了-</option>
                         </select>
-                        <span class="l-left col-hui">- 0.00 元</span>
+                        <span class="l-right col-hui font12">优惠：</span>
                     </div>
                     <div class="goodpay">
-                        <span class="col-dhui">应付总额: </span>
-                        <span class="col-red">¥75.00</span>
-                        <a href="payorder.html" class="btn-submit">提交订单</a>
+                        <span class="col-dhui font24">应付总额: </span>
+                        <span class="col-red font24">¥75.00</span>
+                        <a href="gopay.html" class="btn-submit btn-order">提交订单</a>
                     </div>
                 </div>
             </div>
@@ -204,24 +282,6 @@
                 }
             }
         }
-    </script>
-    <script>
-    $(function(){
-        window.onload = function()
-        {
-            var $li = $('#proinfo-tab li');
-            var $ul = $('#proinfo-content ul');
-                        
-            $li.click(function(){
-                var $this = $(this);
-                var $t = $this.index();
-                $li.removeClass();
-                $this.addClass('active');
-                $ul.css('display','none');
-                $ul.eq($t).css('display','block');
-            })
-        }
-    });
     </script>
   <script type="text/javascript">
     $(function(){

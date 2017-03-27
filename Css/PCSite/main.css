@@ -1988,6 +1988,333 @@ div:active.column-newsale {
   border: 2px solid #ff8903;
   color: #7c7c7d;
 }
+.gobuybox .contentbox .receiver {
+  display: block;
+  overflow: hidden;
+  width: 1049px;
+  margin: 0 auto;
+}
+.gobuybox .contentbox .receiver .tit {
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+.gobuybox .contentbox .receiver .tit a {
+  color: #2d87d9;
+  font-size: 12px;
+  margin-left: 12px;
+}
+.gobuybox .contentbox .receiver .address-list {
+  display: block;
+  overflow: hidden;
+  color: #7c7c7d;
+  padding: 12px 0 24px 0;
+  font-size: 12px;
+}
+.gobuybox .contentbox .receiver .address-list > span {
+  margin-right: 24px;
+}
+.gobuybox .contentbox .receiver .address-list .name {
+  font-weight: 600;
+}
+.gobuybox .contentbox .receiver-change {
+  background: rgba(255, 245, 204, 0.25);
+  border: solid 3px #dfb15b;
+  padding: 7px 17px;
+  box-sizing: border-box;
+}
+.gobuybox .contentbox .receiver-change .address-list input[type="radio"] {
+  vertical-align: top;
+  margin-top: -1px;
+}
+.gobuybox .contentbox .receiver-change .address-list a:hover {
+  color: #d09e40;
+}
+.gobuybox .contentbox .receiver-change .addressform {
+  display: block;
+  overflow: hidden;
+}
+.gobuybox .contentbox .receiver-change .addressform dl {
+  display: block;
+  overflow: hidden;
+  padding: 18px 24px;
+}
+.gobuybox .contentbox .receiver-change .addressform dl dt {
+  float: left;
+  width: 15%;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  margin-right: 12px;
+}
+.gobuybox .contentbox .receiver-change .addressform dl dt i.notice {
+  color: #ff0023;
+  margin-right: 8px;
+  font-style: normal;
+  line-height: 18px;
+  display: inline-block;
+}
+.gobuybox .contentbox .receiver-change .addressform dl dd {
+  float: left;
+  width: 70%;
+}
+.gobuybox .contentbox .receiver-change .addressform dl dd input {
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  height: 20px;
+}
+.gobuybox .contentbox .receiver-change .addressform dl dd select {
+  width: 100px;
+  border: 1px solid #ddd;
+  margin-right: 8px;
+  height: 28px;
+  line-height: 28px;
+}
+.gobuybox .contentbox .receiver-change .addressform dl:hover {
+  background: #FFF5CC;
+}
+.gobuybox .contentbox .receiver-change .addressform .formbtn {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.gobuybox .contentbox .receiver-change .addressform .formbtn a.btn-address {
+  display: inline-block;
+  background: #dfb15b;
+  color: #fff;
+  border-radius: 2px;
+  padding: 12px 24px;
+  font-size: 12px;
+}
+.gobuybox .contentbox .receiver-change .addressform .formbtn a:hover.btn-address {
+  background: #F48200;
+}
+.gobuybox .contentbox .shoplist {
+  display: block;
+  overflow: hidden;
+  width: 1049px;
+  margin: 12px auto;
+}
+.gobuybox .contentbox .shoplist p.tit {
+  padding-left: 12px;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+}
+.gobuybox .contentbox .shoplist table {
+  display: block;
+  overflow: hidden;
+  width: 1049px;
+}
+.gobuybox .contentbox .shoplist table tr {
+  display: block;
+  overflow: hidden;
+  width: 1049px;
+}
+.gobuybox .contentbox .shoplist table .shoplist-tit {
+  background-color: #F9F9F9;
+  height: 20px;
+  line-height: 20px;
+  padding: 8px 0;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  width: 1049px;
+}
+.gobuybox .contentbox .shoplist table .storename {
+  display: block;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+  padding: 8px 20px;
+  font-size: 12px;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  width: 1049px;
+}
+.gobuybox .contentbox .shoplist table .shopgood {
+  background-color: #FFFDEE;
+  display: block;
+  height: 40px;
+  padding: 8px 0;
+  line-height: 40px;
+  overflow: hidden;
+  width: 1049px;
+  border-bottom: 1px solid #ddd;
+}
+.gobuybox .contentbox .shoplist table .shopgood .pic {
+  display: block;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.gobuybox .contentbox .shoplist table .shopgood .pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.gobuybox .contentbox .shoplist table .shopgood a.goodtit {
+  float: left;
+}
+.gobuybox .contentbox .shoplist table .shopgood a:hover.goodtit {
+  color: #d09e40;
+}
+.gobuybox .contentbox .shoplist table .paymoney {
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+}
+.gobuybox .contentbox .goodtext {
+  display: block;
+  overflow: hidden;
+  width: 1049px;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+  height: 38px;
+  line-height: 38px;
+  color: #b4b5b7;
+}
+.gobuybox .contentbox .goodtext textarea {
+  margin-top: 8px;
+  border: 1px solid #ddd;
+}
+.gobuybox .contentbox .goodbtnbox {
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid #ddd;
+  padding: 12px;
+}
+.gobuybox .contentbox .goodbtnbox .good-price {
+  display: block;
+  overflow: hidden;
+  text-align: right;
+  height: 34px;
+  line-height: 34px;
+}
+.gobuybox .contentbox .goodbtnbox .good-price select {
+  margin: 4px 12px 0 12px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #ddd;
+  width: 200px;
+  color: #b4b5b7;
+}
+.gobuybox .contentbox .goodbtnbox .goodpay {
+  display: block;
+  overflow: hidden;
+  text-align: right;
+  padding-top: 48px;
+}
+.gobuybox .contentbox .goodbtnbox .goodpay a.btn-order {
+  display: inline-block;
+  overflow: hidden;
+  padding: 20px 48px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: top;
+  margin-top: -14px;
+  margin-left: 12px;
+}
+.gobuybox .contentbox .gopaystate {
+  display: block;
+  overflow: hidden;
+  width: 450px;
+  margin: 0 auto;
+  padding: 34px 0;
+}
+.gobuybox .contentbox .gopaystate .pic {
+  display: block;
+  float: left;
+  width: 44px;
+  height: 44px;
+}
+.gobuybox .contentbox .gopaystate .pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.gobuybox .contentbox .gopaystate .text {
+  display: block;
+  float: left;
+  margin-left: 18px;
+  line-height: 24px;
+}
+.gobuybox .contentbox .gopaystate .text .btnbox {
+  display: block;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.gobuybox .contentbox .gopaystate .text .btnbox a {
+  display: inline-block;
+  float: left;
+  padding: 8px 24px;
+  margin-right: 12px;
+  border-radius: 2px;
+}
+.gobuybox .contentbox .gopaymoney {
+  display: block;
+  overflow: hidden;
+  padding: 0 34px;
+  font-weight: 600;
+}
+.gobuybox .contentbox .gopayway {
+  display: block;
+  overflow: hidden;
+  width: 1049px;
+  margin: 0 auto;
+}
+.gobuybox .contentbox .gopayway .tit {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  line-height: 34px;
+  padding-left: 12px;
+  font-size: 18px;
+  color: #7c7c7d;
+  margin-bottom: 12px;
+}
+.gobuybox .contentbox .gopayway li {
+  display: block;
+  overflow: hidden;
+  width: 180px;
+  height: 68px;
+  text-align: center;
+  float: left;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-right: 12px;
+  position: relative;
+  box-sizing: border-box;
+}
+.gobuybox .contentbox .gopayway li i.ic-using {
+  display: inline-block;
+  position: absolute;
+  z-index: 999;
+  top: 2px;
+  left: 8px;
+  background: url(../../Images/pay-use.png) center center no-repeat;
+  width: 32px;
+  height: 32px;
+}
+.gobuybox .contentbox .gopayway li .pic {
+  display: block;
+  overflow: hidden;
+  width: 140px;
+  margin: 13px auto;
+  height: 42px;
+}
+.gobuybox .contentbox .gopayway li .pic img {
+  height: 100%;
+  vertical-align: top;
+}
+.gobuybox .contentbox .gopayway li:hover,
+.gobuybox .contentbox .gopayway li:active,
+.gobuybox .contentbox .gopayway li.active {
+  border: 2px solid #52A452;
+}
 .bottom-banner {
   display: block;
   overflow: hidden;
