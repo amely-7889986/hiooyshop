@@ -63,15 +63,15 @@
 /*gotop*/
 .cbbfixed {
   position: fixed;
-  right: 10px;
+  right: 20px;
   transition: bottom ease .3s;
-  bottom: -115px;
+  bottom: 200px;
   z-index: 3;
   cursor: pointer;
 }
 .cbbfixed .cbbtn {
-  width: 50px;
-  height: 50px;
+  width: 66px;
+  height: 46px;
   display: block;
 }
 .cbbfixed .gotop {
@@ -81,9 +81,9 @@
 .cbbfixed .gotop .up-icon {
   float: left;
   margin: 14px 0 0 9px;
-  width: 50px;
-  height: 50px;
-  background: url(../../Images/gotop.png);
+  width: 66px;
+  height: 46px;
+  background: url(../../Images/hbar3.png) no-repeat left -150px top -140px;
 }
 .cbbfixed .gotop:hover {
   opacity: .9;
@@ -120,4 +120,107 @@
   width: 50px;
   height: 50px;
   background: url(../../Images/gowechat.png);
+}
+.cbbfixed .user .user-icon {
+  float: left;
+  margin: -1px 0 0 9px;
+  width: 66px;
+  height: 46px;
+  background: url(../../Images/hbar3.png) no-repeat left -150px top;
+}
+.cbbfixed .order .order-icon {
+  float: left;
+  margin: -1px 0 0 9px;
+  width: 66px;
+  height: 46px;
+  background: url(../../Images/hbar3.png) no-repeat left -150px top -45px;
+}
+.cbbfixed .shopcar .shopcar-icon {
+  float: left;
+  margin: -1px 0 0 9px;
+  width: 66px;
+  height: 46px;
+  background: url(../../Images/hbar3.png) no-repeat left -150px top -90px;
+}
+.cbbfixed .user div {
+  width: 90px;
+  height: 46px;
+  position: absolute;
+  left: -110px;
+  top: -1px;
+  background: #fff;
+  border: 1px solid #dfb15b;
+  color: #dfb15b;
+  line-height: 46px;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0;
+  transform: translateX(90px);
+  -webkit-transform: translateX(90px);
+  transform-origin: 100% 50%;
+  -webkit-transform-origin: 100% 50%;
+  transition: transform ease .3s,opacity ease .3s;
+  -webkit-transition: all ease .3s;
+  display: none\0;
+  *display: none;
+}
+.cbbfixed .order div {
+  width: 90px;
+  height: 46px;
+  position: absolute;
+  left: -110px;
+  top: 45px;
+  background: #fff;
+  border: 1px solid #dfb15b;
+  color: #dfb15b;
+  line-height: 46px;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0;
+  transform: translateX(90px);
+  -webkit-transform: translateX(90px);
+  transform-origin: 100% 50%;
+  -webkit-transform-origin: 100% 50%;
+  transition: transform ease .3s,opacity ease .3s;
+  -webkit-transition: all ease .3s;
+  display: none\0;
+  *display: none;
+}
+.cbbfixed .shopcar div {
+  width: 90px;
+  height: 46px;
+  position: absolute;
+  left: -110px;
+  top: 91px;
+  background: #fff;
+  border: 1px solid #dfb15b;
+  color: #dfb15b;
+  line-height: 46px;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0;
+  transform: translateX(90px);
+  -webkit-transform: translateX(90px);
+  transform-origin: 100% 50%;
+  -webkit-transform-origin: 100% 50%;
+  transition: transform ease .3s,opacity ease .3s;
+  -webkit-transition: all ease .3s;
+  display: none\0;
+  *display: none;
+}
+.cbbfixed .user:hover .user-icon{
+	background-position: -234px top;
+}
+.cbbfixed .order:hover .order-icon{
+	background-position: -234px -45px;
+}
+.cbbfixed .shopcar:hover .shopcar-icon{
+	background-position: -234px -90px;
+}
+.cbbfixed .user:hover div ,.cbbfixed .order:hover div ,.cbbfixed .shopcar:hover div {
+  display: block;
+  transform: translateX(30px);
+  -webkit-transform: translateX(30px);
+  opacity: 1;
+  *display: block;
 }

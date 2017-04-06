@@ -1133,3 +1133,152 @@ div:hover.column-newsale,div:active.column-newsale{
 		}
 	}
 }
+.goshopcar{
+	display: block;
+	overflow: hidden;
+	.contentbox{
+		display: block;
+		width: 540px;
+		margin: 200px auto;
+		.pic{
+			margin-right: 18px;
+		}
+		.btnbox{
+			margin: 0 24px;
+			>a{
+				border-radius: 4px;
+				padding: 8px 12px;
+			}
+		}
+		a.backlink{
+			display: inline-block;
+			.col-blue;
+			text-decoration: underline;
+			.font12;
+		}
+	}
+}
+
+/* 购物车 */
+.shopcar{
+	display: block;
+	overflow: hidden;
+	padding-top: 24px;
+	.title{
+		padding-left: 48px;
+		.font24;
+		.col-hei;
+		padding-bottom: 8px;
+	}
+	.selectbox{
+		display: block;
+		overflow: hidden;
+		border: 1px solid #ddd;
+		height: 54px;
+		line-height: 54px;
+		table{
+			width: 100%;
+			.font12;
+			td{
+				line-height: 54px;
+				margin-left: 12px;
+				input[type="checkbox"]{
+					vertical-align: middle;
+					margin-left: 30px;
+					margin-top: -1px;
+				}
+				a:hover.operation{
+					.col-gold;
+				}
+				a.btn-submit{
+					height: 54px;
+					display: inline-block;
+					padding: 0 24px;
+					.font18;
+				}
+				span.price{
+					display: inline-block;
+					line-height: 54px;
+					.l-left;
+				}
+			}
+		}
+	}
+	.contentbox{
+		display: block;
+		overflow: hidden;
+		border-top: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		margin: 12px auto;
+		table{
+			width: 100%;
+			td{
+				padding: 12px 0;
+				border-bottom: 1px solid #ddd;
+				input[type="checkbox"]{
+					margin-left: 30px;
+
+				}
+				span.propic{
+					width: 80px;
+					height: 80px;
+					display: inline-block;
+					border: 1px solid #ddd;
+					overflow: hidden;
+					.l-left;
+					img{
+						width: 100%;
+					}
+				}
+				a.proname{
+					display: inline-block;
+					line-height: 80px;
+					.l-left;
+				}
+				.countnum{
+					margin-left: 12px;
+					a.countbtn{
+						display: inline-block;
+						border: 1px solid #ddd;
+						height: 24px;
+						width: 18px;
+						text-align: center;
+						line-height: 20px;
+						.col-dhui;
+						box-sizing: border-box;
+						.l-left;
+					}
+					>input[type="text"]{
+						height: 24px;
+						width: 48px;
+						display: inline-block;
+						overflow: hidden;
+						vertical-align: top;
+						box-sizing: border-box;
+						.l-left;
+						border: 1px solid #ddd;
+						.col-dhui;
+					}
+				}
+				a.operation{
+					display: block;
+					overflow: hidden;
+					width: 100%;
+					.font12;
+					line-height: 18px;
+				}
+				a:hover.operation{
+					.col-gold;
+				}
+			}
+		}
+		.store{
+			height: 24px;
+			line-height: 24px;
+			padding-left: 30px;
+			background-color: #efefef;
+			.font12;
+		}
+	}
+}

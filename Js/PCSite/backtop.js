@@ -9,8 +9,14 @@ SuCaiJiaYuan.prototype = {
 	},	
 	_initBackTop: function(){
 		var $backTop = this.$backTop = $('<div class="cbbfixed">'+
-						'<a class="cweixin cbbtn"">'+
-							'<span class="weixin-icon"></span><div></div>'+
+						'<a class="user cbbtn"">'+
+							'<span class="user-icon"></span><div>个人中心</div>'+
+						'</a>'+
+						'<a class="order cbbtn">'+
+							'<span class="order-icon"></span><div>我的订单</div>'+
+						'</a>'+
+						'<a class="shopcar cbbtn"">'+
+							'<span class="shopcar-icon"></span><div>购物车</div>'+
 						'</a>'+
 						'<a class="gotop cbbtn">'+
 							'<span class="up-icon"></span>'+
@@ -27,7 +33,7 @@ SuCaiJiaYuan.prototype = {
 		$(window).bind("scroll",function() {
             var d = $(document).scrollTop(),
             e = $(window).height();
-            0 < d ? $backTop.css("bottom", "10px") : $backTop.css("bottom", "-110px");
+            0 < d ? $backTop.css("bottom", "200") : $backTop.css("bottom", "200");
 			clearTimeout(timmer);
 			timmer = setTimeout(function() {
                 clearTimeout(timmer)
