@@ -1441,6 +1441,7 @@ div:active.column-newsale {
   height: 352px;
   float: left;
   margin-right: 6px;
+  margin-bottom: 6px;
   border: 1px solid #fff;
   box-sizing: border-box;
 }
@@ -2461,6 +2462,76 @@ div:active.column-newsale {
   padding-left: 30px;
   background-color: #efefef;
   font-size: 12px;
+}
+/* 个人中心 */
+.userbox {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 24px;
+}
+.usersub {
+  display: block;
+  overflow: hidden;
+  width: 220px;
+}
+.usersub .headbox {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  padding: 20px 10px 10px 25px;
+}
+.usersub .itembox {
+  display: block;
+  border: 1px solid #ddd;
+  padding: 0 35px;
+}
+.usersub .itembox .sidebar-item > a {
+  display: block;
+  line-height: 34px;
+  height: 34px;
+  position: relative;
+}
+.usersub .itembox .sidebar-item > a h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.usersub .itembox .sidebar-item > a em {
+  position: absolute;
+  display: block;
+  border: 1px solid #c9c9c9;
+  height: 8px;
+  width: 14px;
+  background: url(../../Images/user_pics.png) no-repeat;
+  right: 0;
+  top: 12px;
+}
+.usersub .itembox .sidebar-item > a em.emoff {
+  background: url(../img/user_pics.png) no-repeat 0 -11px;
+}
+.usersub .itembox .sidebar-item ul {
+  display: ;
+}
+.usersub .itembox .sidebar-item ul .sidebar-itemini {
+  height: 28px;
+  width: 100%;
+  border-bottom: 1px dashed #dedede;
+}
+.usersub .itembox .sidebar-item ul .sidebar-itemini > a {
+  display: block;
+  font-size: 14px;
+  line-height: 28px;
+  color: #515151;
+}
+.usersub .itembox .sidebar-item ul .sidebar-itemini > a.selected,
+.usersub .itembox .sidebar-item ul .sidebar-itemini > a:hover,
+.usersub .itembox .sidebar-item ul .sidebar-itemini > a.active {
+  background: #FFF0E9;
+}
+.usersub .itembox .sidebar-item ul .sidebar-itemini:last-child {
+  border-bottom: none;
+}
+.usersub .itembox .sidebar-item > a:hover {
+  color: #d09e40;
 }
 .bottom-banner {
   display: block;

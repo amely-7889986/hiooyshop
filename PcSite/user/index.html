@@ -47,20 +47,66 @@
             <div class="main">
                 <ul class="l-right">
                     <li><a href="../index.html">首页</a></li>
-                    <li class="active"><a href="list.html">零食</a></li>
-                    <li><a href="list.html">美妆</a></li>
-                    <li><a href="product/list.html">保健</a></li>
-                    <li><a href="list.html">母婴</a></li>
-                    <li><a href="list.html">居家</a></li>
+                    <li class="active"><a href="../product/list.html">零食</a></li>
+                    <li><a href="../product/list.html">美妆</a></li>
+                    <li><a href="../product/list.html">保健</a></li>
+                    <li><a href="../product/list.html">母婴</a></li>
+                    <li><a href="../product/list.html">居家</a></li>
                 </ul>
             </div>
         </div>
-        <div class="bg-bai userbox">
-            <div class="l-left usersub">
-                <div class="headbox"></div>
-                <div class="itembox"></div>
+        <div class="bg-bai">
+            <div class="userbox main">
+                <div class="l-left usersub">
+                    <div class="headbox">
+                        <a class="picbox" href="edituser.html">
+                            <img src="../../UploadFile/avatar_5.png" alt="">
+                        </a>
+                        <div class="namebox">
+                            <span>当前帐号：</span><span>184****3361</span>
+                        </div>
+                    </div>
+                    <div class="itembox">
+                        <ul class="sidebar-menu">
+                            <li class="sidebar-item">
+                                <a href="">
+                                    <h4>我的交易</h4>
+                                    <em></em>
+                                    <ul>
+                                        <li class="sidebar-itemini"><a href="" class="active">快递订单</a></li>
+                                        <li class="sidebar-itemini"><a href="">到店取货订单</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="">
+                                    <h4>客户服务</h4>
+                                    <em></em>
+                                    <ul>
+                                        <li class="sidebar-itemini"><a href="">退货列表</a></li>
+                                        <li class="sidebar-itemini"><a href="">退款列表</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="">
+                                    <h4>账户管理</h4>
+                                    <em></em>
+                                    <ul>
+                                        <li class="sidebar-itemini"><a href="">我的收藏</a></li>
+                                        <li class="sidebar-itemini"><a href="">修改登录密码</a></li>
+                                        <li class="sidebar-itemini"><a href="">修改/绑定手机</a></li>
+                                        <li class="sidebar-itemini"><a href="">账户信息</a></li>
+                                        <li class="sidebar-itemini"><a href="">收货地址</a></li>
+                                        <li class="sidebar-itemini"><a href="">我的优惠券</a></li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="l-left userinner"></div>
             </div>
-            <div class="l-left userinner"></div>
         </div>
 
 
@@ -90,6 +136,30 @@
             $(this).removeClass("open");
         });
     });
-</script>
+    </script>
+    <script>
+        $(document).ready(function() {
+            //sidebar-menu
+            $.each($(".sidebar-item >a"), function() {
+                $(this).click(function() {
+                    var _thisurl = $(this).next("ul");
+                    _thisurl.slideToggle();
+                        if ($(this).find('em').hasClass('emoff')) {
+                            $(this).find('em').removeClass('emoff');
+                        } else {
+                            $(this).find('em').addClass('emoff');
+                        }
+                });
+            });
+            $(".sidebar-itemini >a").each(function(){
+                 var This=$(this)
+                 That=$(".breadcrumb>span:last");
+                 if(That.length > 0 && This.text().indexOf(That.text().trim())!=-1){
+
+                    This.addClass("active");
+                 }
+            });                 
+        })
+    </script>
 </body>
 </html>

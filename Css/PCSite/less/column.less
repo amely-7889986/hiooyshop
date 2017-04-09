@@ -237,6 +237,7 @@ div:hover.column-newsale,div:active.column-newsale{
 			height: 352px;
 			.l-left;
 			margin-right: 6px;
+			margin-bottom: 6px;
 			border: 1px solid #fff;
 			box-sizing: border-box;
 			.pic{
@@ -1279,6 +1280,77 @@ div:hover.column-newsale,div:active.column-newsale{
 			padding-left: 30px;
 			background-color: #efefef;
 			.font12;
+		}
+	}
+}
+
+/* 个人中心 */
+.userbox{
+	display: block;
+	overflow: hidden;
+	padding-bottom: 24px;
+}
+.usersub{
+	display: block;
+	overflow: hidden;
+	width: 220px;
+	.headbox{
+		background-color: #f3f3f3;
+		border: 1px solid #ddd;
+		margin-bottom: 12px;
+		padding: 20px 10px 10px 25px;
+	}
+	.itembox{
+		display: block;
+		border: 1px solid #ddd;
+		padding: 0 35px;
+		.sidebar-item{
+			>a{
+				display: block;
+			    line-height: 34px;
+			    height: 34px;
+			    position: relative;
+			    h4{
+			    	.font16;
+			    	.fontw6;
+			    }
+				em{
+					position: absolute;
+				    display: block;
+				    border: 1px solid #c9c9c9;
+				    height: 8px;
+				    width: 14px;
+				    background: url(../../Images/user_pics.png) no-repeat;
+				    right: 0;
+				    top: 12px;
+				}
+				em.emoff{
+					background: url(../img/user_pics.png) no-repeat 0 -11px;
+				}
+			}
+			ul{
+				display: ;
+				.sidebar-itemini{
+					height: 28px;
+					width: 100%;
+					border-bottom: 1px dashed #dedede;
+					>a{
+						display:block;
+						font-size:14px;
+						line-height:28px;
+						color: #515151;
+					}
+					>a.selected,>a:hover,>a.active{
+						background: #FFF0E9;
+					}
+				}
+				.sidebar-itemini:last-child{
+					border-bottom: none;
+				}
+			}
+			>a:hover{
+				.col-gold;
+			}
 		}
 	}
 }
