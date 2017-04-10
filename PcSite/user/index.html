@@ -69,43 +69,123 @@
                     <div class="itembox">
                         <ul class="sidebar-menu">
                             <li class="sidebar-item">
-                                <a href="">
+                                <a href="javascript:void(0)" class="active">
                                     <h4>我的交易</h4>
                                     <em></em>
                                     <ul>
-                                        <li class="sidebar-itemini"><a href="" class="active">快递订单</a></li>
-                                        <li class="sidebar-itemini"><a href="">到店取货订单</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)" class="active">快递订单</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">到店取货订单</a></li>
                                     </ul>
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <h4>客户服务</h4>
                                     <em></em>
                                     <ul>
-                                        <li class="sidebar-itemini"><a href="">退货列表</a></li>
-                                        <li class="sidebar-itemini"><a href="">退款列表</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">退货列表</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">退款列表</a></li>
                                     </ul>
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <h4>账户管理</h4>
                                     <em></em>
                                     <ul>
-                                        <li class="sidebar-itemini"><a href="">我的收藏</a></li>
-                                        <li class="sidebar-itemini"><a href="">修改登录密码</a></li>
-                                        <li class="sidebar-itemini"><a href="">修改/绑定手机</a></li>
-                                        <li class="sidebar-itemini"><a href="">账户信息</a></li>
-                                        <li class="sidebar-itemini"><a href="">收货地址</a></li>
-                                        <li class="sidebar-itemini"><a href="">我的优惠券</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">我的收藏</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">修改登录密码</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">修改/绑定手机</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">账户信息</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">收货地址</a></li>
+                                        <li class="sidebar-itemini"><a href="javascript:void(0)">我的优惠券</a></li>
                                     </ul>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="l-left userinner"></div>
+                <div class="l-left userinner">
+                    <div class="locate-tit">
+                        <span class="fontw6 col-hei">我的交易</span>><span class="col-hei">快递订单</span>
+                    </div>
+                    <div class="order-search">
+                        <table>
+                            <tr>
+                                <td>订单状态</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value="">所有快递订单</option>
+                                        <option value="">待付款</option>
+                                        <option value="">待发货</option>
+                                        <option value="">待收货</option>
+                                        <option value="">已完成</option>
+                                        <option value="">交易关闭</option>
+                                    </select>
+                                </td>
+                                <td>下单时间</td>
+                                <td></td>
+                                <td>订单号</td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="searchbtn">搜索</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="ordertable">
+                        <table class="title">
+                            <tr>
+                                <td>商品</td>
+                                <td>单价（元）</td>
+                                <td>数量</td>
+                                <td>订单金额</td>
+                                <td>交易状态</td>
+                                <td>交易操作</td>
+                            </tr>
+                        </table>
+                        <table class="orderbox">
+                            <tr>
+                                <td>
+                                    <span>订单号：</span><span>9000000000000401</span>
+                                </td>
+                                <td>
+                                    <span>下单时间：</span><span>2017-03-28 01:34:51</span>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)" class="store">海印优选</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="propic"></div>
+                                </td>
+                                <td>
+                                    <a href="../product/info.html" class="proname"></a>
+                                </td>
+                                <td>85.00</td>
+                                <td>1</td>
+                                <td>
+                                    <span>85.00</span><span>（免运费）</span><span>未付款</span>
+                                </td>
+                                <td>
+                                    <span>待付款</span><a href="orderinfo.html">订单详情</a>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="col-hei l-left"><em>订单总额：</em><em class="font12">￥85.00 </em></span>
+                                    <span class="fontw6 col-hei font18 l-left"><em>应付金额：</em><em>￥85.00</em></span>
+                                    <a href="" class="l-right btn-lgold">取消订单</a>
+                                    <a href="" class="l-right btn-bggold">订单支付</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -128,15 +208,6 @@
 
     <script type="text/javascript" src="../../Js/PCSite/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="../../Js/PCSite/swiper.min.js"></script>
-    <script type="text/javascript">
-    $(function(){
-        $(".dropdown").mouseover(function(){
-            $(this).addClass("open");
-        }).mouseleave(function(){
-            $(this).removeClass("open");
-        });
-    });
-    </script>
     <script>
         $(document).ready(function() {
             //sidebar-menu
@@ -160,6 +231,15 @@
                  }
             });                 
         })
+    </script>
+    <script type="text/javascript">
+    $(function(){
+        $(".dropdown").mouseover(function(){
+            $(this).addClass("open");
+        }).mouseleave(function(){
+            $(this).removeClass("open");
+        });
+    });
     </script>
 </body>
 </html>

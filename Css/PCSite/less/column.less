@@ -1310,6 +1310,7 @@ div:hover.column-newsale,div:active.column-newsale{
 			    line-height: 34px;
 			    height: 34px;
 			    position: relative;
+			    overflow: hidden;
 			    h4{
 			    	.font16;
 			    	.fontw6;
@@ -1325,7 +1326,7 @@ div:hover.column-newsale,div:active.column-newsale{
 				    top: 12px;
 				}
 				em.emoff{
-					background: url(../img/user_pics.png) no-repeat 0 -11px;
+					background: url(../../Images/user_pics.png) no-repeat 0 -11px;
 				}
 			}
 			ul{
@@ -1339,8 +1340,9 @@ div:hover.column-newsale,div:active.column-newsale{
 						font-size:14px;
 						line-height:28px;
 						color: #515151;
+						overflow: hidden;
 					}
-					>a.selected,>a:hover,>a.active{
+					>a.selected,a:hover,a.active{
 						background: #FFF0E9;
 					}
 				}
@@ -1348,9 +1350,17 @@ div:hover.column-newsale,div:active.column-newsale{
 					border-bottom: none;
 				}
 			}
-			>a:hover{
-				.col-gold;
+			>a:hover,>a.active{
+				h4{
+					.col-gold;
+				}
 			}
 		}
 	}
+}
+.userinner{
+	display: block;
+	width: 860px;
+	overflow: hidden;
+	float: right;
 }
