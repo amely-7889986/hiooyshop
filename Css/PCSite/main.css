@@ -1441,6 +1441,7 @@ div:active.column-newsale {
   height: 352px;
   float: left;
   margin-right: 6px;
+  margin-bottom: 6px;
   border: 1px solid #fff;
   box-sizing: border-box;
 }
