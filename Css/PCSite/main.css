@@ -2480,6 +2480,44 @@ div:active.column-newsale {
   margin-bottom: 12px;
   padding: 20px 10px 10px 25px;
 }
+.usersub .headbox a.picbox {
+  display: block;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+}
+.usersub .headbox a.picbox img {
+  width: 100%;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  z-index: 9;
+}
+.usersub .headbox a.picbox .bottomtxt {
+  display: none;
+  overflow: hidden;
+  height: 28px;
+  line-height: 28px;
+  width: 80px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  font-size: 12px;
+}
+.usersub .headbox a:hover.picbox .bottomtxt {
+  display: block;
+}
+.usersub .headbox .namebox {
+  display: block;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 24px;
+}
 .usersub .itembox {
   display: block;
   border: 1px solid #ddd;
@@ -2541,6 +2579,228 @@ div:active.column-newsale {
   width: 860px;
   overflow: hidden;
   float: right;
+}
+.userinner .locate-tit {
+  padding: 8px 15px;
+  margin: 0 0 20px;
+  list-style: outside none none;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  line-height: 38px;
+}
+.userinner .order-search {
+  display: block;
+  overflow: hidden;
+}
+.userinner .order-search table {
+  color: #999;
+  width: 100%;
+  border-bottom: solid 1px #E6E6E6;
+}
+.userinner .order-search table td {
+  text-align: left;
+  padding: 8px 0;
+  font-size: 12px;
+}
+.userinner .order-search table td select.orderstate {
+  width: 220px;
+  border: 1px solid #ddd;
+  color: #aaa;
+  height: 30px;
+  box-sizing: border-box;
+}
+.userinner .order-search table .orderdate > input {
+  width: 100px;
+  height: 30px;
+  box-sizing: border-box;
+  border-color: #ddd;
+}
+.userinner .order-search table .searchinput > input {
+  height: 30px;
+  width: 160px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+.userinner .order-search table label.btnbox {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DCDCDC #DCDCDC #B3B3B3 #DCDCDC;
+}
+.userinner .order-search table label.btnbox > input[type="submit"] {
+  color: #333;
+  background-color: #F5F5F5;
+  width: 64px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+.userinner .order-search table label.btnbox > input[type="submit"]:hover {
+  background-color: #E6E6E6;
+  color: #333;
+}
+.userinner .ordertable {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.userinner .ordertable table {
+  width: 100%;
+}
+.userinner .ordertable table td {
+  border-color: #ddd;
+  background-color: #fff;
+}
+.userinner .ordertable table.title {
+  margin-bottom: 12px;
+}
+.userinner .ordertable table.title td {
+  color: #999;
+  background-color: #FFF;
+  text-align: center;
+  height: 20px;
+  padding: 8px 0;
+  border-bottom: solid 1px #E7E7E7;
+  font-size: 12px;
+}
+.userinner .ordertable table.orderbox {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.userinner .ordertable table.orderbox td {
+  border-bottom: 1px solid #ddd;
+}
+.userinner .ordertable table.orderbox td.title {
+  padding: 4px 0;
+  line-height: 20px;
+  font-size: 12px;
+}
+.userinner .ordertable table.orderbox td.title span {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.userinner .ordertable table.orderbox td.title > a {
+  color: #2d87d9;
+}
+.userinner .ordertable table.orderbox td.title > a:hover {
+  color: #d09e40;
+}
+.userinner .ordertable table.orderbox .listbox td {
+  vertical-align: top;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.userinner .ordertable table.orderbox .listbox a.propic {
+  display: inline-block;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  float: left;
+}
+.userinner .ordertable table.orderbox .listbox a.propic img {
+  width: 100%;
+  vertical-align: top;
+}
+.userinner .ordertable table.orderbox .listbox a.proname {
+  display: block;
+  width: 260px;
+  white-space: nowrap;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2d87d9;
+}
+.userinner .ordertable table.orderbox .listbox a:hover.proname {
+  color: #d09e40;
+}
+.userinner .ordertable table.orderbox .listbox td.countmoney > span {
+  display: block;
+  overflow: hidden;
+  line-height: 18px;
+}
+.userinner .ordertable table.orderbox .listbox td.ordercheck {
+  text-align: center;
+  color: #2d87d9;
+  font-size: 12px;
+  line-height: 24px;
+}
+.userinner .ordertable table.orderbox .listbox td.ordercheck > span {
+  display: block;
+  overflow: hidden;
+}
+.userinner .ordertable table.orderbox .listbox td.ordercheck > a {
+  display: block;
+  overflow: hidden;
+}
+.userinner .ordertable table.orderbox td.orderpaysec {
+  height: 28px;
+  line-height: 28px;
+  padding: 12px;
+}
+.userinner .ordertable table.orderbox td.orderpaysec > span {
+  margin-right: 18px;
+}
+.userinner .ordertable table.orderbox td.orderpaysec > a {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 12px;
+  font-size: 12px;
+  margin-left: 12px;
+}
+.userinner .ordertable table.orderbox td.orderpaysec > a.btn-lgold {
+  color: #d09e40;
+  border: 1px solid #d09e40;
+  background: #F5F5F5;
+}
+.userinner .ordertable table.orderbox td.orderpaysec > a:hover.btn-lgold {
+  background-color: #fff;
+}
+.userinner .ordertable table.orderbox td.orderpaysec > a.btn-bgold {
+  border: 1px solid #dfb15b;
+  color: #fff;
+  background-color: #d09e40;
+}
+.userinner .ordertable table.orderbox td.orderpaysec > a:hover.btn-bgold {
+  color: #dfb15b;
+  background-color: #fff;
+}
+.userpage {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+.userpage > a {
+  display: inline-block;
+  color: #AAA;
+  background-color: #FAFAFA;
+  text-align: center;
+  min-width: 20px;
+  padding: 12px 8px;
+  border: 1px solid #ddd;
+}
+.userpage > span {
+  display: inline-block;
+  color: #AAA;
+  background-color: #FAFAFA;
+  text-align: center;
+  min-width: 20px;
+  padding: 12px 8px;
+  border: 1px solid #ddd;
+}
+.userpage .active {
+  border-color: #d09e40!important;
+  color: #d09e40!important;
+}
+.userpage > a.first,
+.userpage > a.last {
+  margin: 0 8px;
 }
 .bottom-banner {
   display: block;

@@ -1299,6 +1299,46 @@ div:hover.column-newsale,div:active.column-newsale{
 		border: 1px solid #ddd;
 		margin-bottom: 12px;
 		padding: 20px 10px 10px 25px;
+		a.picbox{
+			display: block;
+			overflow: hidden;
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			position: relative;
+			img{
+				width: 100%;
+				vertical-align: top;
+				position: absolute;
+				top: 0;
+				z-index: 9;
+			}
+			.bottomtxt{
+				display: none;
+				overflow: hidden;
+				height: 28px;
+				line-height: 28px;
+				width: 80px;
+				.col-bai;
+				.text-ac;
+				background: rgba(0, 0, 0, 0.6);
+				position: absolute;
+				bottom: 0;
+				z-index: 99;
+				.font12;
+			}
+		}
+		a:hover.picbox{
+			.bottomtxt{
+				display: block;
+			}
+		}
+		.namebox{
+			display: block;
+			overflow: hidden;
+			.font12;
+			line-height: 24px;
+		}
 	}
 	.itembox{
 		display: block;
@@ -1363,4 +1403,233 @@ div:hover.column-newsale,div:active.column-newsale{
 	width: 860px;
 	overflow: hidden;
 	float: right;
+	.locate-tit{
+	    padding: 8px 15px;
+	    margin: 0 0 20px;
+	    list-style: outside none none;
+	    background-color: #F5F5F5;
+	    border-radius: 4px;
+	    line-height: 38px;
+	}
+	.order-search{
+		display: block;
+		overflow: hidden;
+		table{
+			color: #999;
+		    width: 100%;
+		    border-bottom: solid 1px #E6E6E6;
+		    td{
+		    	text-align: left;
+			    padding: 8px 0;
+			    font-size: 12px;
+			    select.orderstate{
+			    	width: 220px;
+			    	border: 1px solid #ddd;
+			    	color: #aaa;
+			    	height: 30px;
+			    	box-sizing: border-box;
+			    }
+		    }
+		    .orderdate{
+		    	>input{
+		    		width: 100px;
+		    		height: 30px;
+		    		box-sizing: border-box;
+		    		border-color: #ddd;
+		    	}
+		    }
+		    .searchinput{
+		    	>input{
+		    		height: 30px;
+			    	width: 160px;
+			    	box-sizing: border-box;
+			    	border: 1px solid #ddd;
+		    	}
+		    }
+		    label.btnbox{
+		    	vertical-align: middle;
+			    display: inline-block;
+			    margin: 0 2px;
+			    border-style: solid;
+			    border-width: 1px;
+			    border-color: #DCDCDC #DCDCDC #B3B3B3 #DCDCDC;
+			    >input[type="submit"]{
+			    	color: #333;
+				    background-color: #F5F5F5;
+				    width: 64px;
+				    height: 28px;
+				    padding: 0;
+				    border: 0;
+				    cursor: pointer;
+			    }
+			    >input[type="submit"]:hover{
+		    	    background-color: #E6E6E6;
+				    color: #333;
+			    }
+		    }
+		}
+	}
+	.ordertable{
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		table{
+			width: 100%;
+			td{
+				border-color: #ddd;
+				background-color: #fff;
+			}
+		}
+		table.title{
+			margin-bottom: 12px;
+			td{
+				color: #999;
+			    background-color: #FFF;
+			    text-align: center;
+			    height: 20px;
+			    padding: 8px 0;
+			    border-bottom: solid 1px #E7E7E7;
+			    .font12;
+			}
+		}
+		table.orderbox{
+			border-left: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			border-top: 1px solid #ddd;
+			margin-bottom: 12px;
+			td{
+				border-bottom: 1px solid #ddd;
+			}
+			td.title{
+			    padding: 4px 0;
+			    line-height: 20px;
+			    .font12;
+			    span{
+			    	margin-right: 30px;
+			    	margin-left: 10px;
+			    }
+			    >a{
+			    	.col-blue;
+			    }
+			    >a:hover{
+			    	.col-gold;
+			    }
+			}
+			.listbox{
+				td{
+					vertical-align: top;
+					padding-top: 12px;
+					padding-bottom: 12px;
+				}
+				a.propic{
+					display: inline-block;
+					overflow: hidden;
+					width: 60px;
+					height: 60px;
+					margin-left: 10px;
+					float: left;
+					img{
+						width: 100%;
+						vertical-align: top;
+					}
+				}
+				a.proname{
+					display: block;
+					width: 260px;
+					white-space: nowrap;
+					.font12;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					.col-blue;
+				}
+				a:hover.proname{
+					.col-gold;
+				}
+				td.countmoney{
+					>span{
+						display: block;
+						overflow: hidden;
+						line-height: 18px;
+					}
+				}
+				td.ordercheck{
+					.text-ac;
+					.col-blue;
+					.font12;
+					line-height: 24px;
+					>span{
+						display: block;
+						overflow: hidden;
+					}
+					>a{
+						display: block;
+						overflow: hidden;
+					}
+				}
+			}
+			td.orderpaysec{
+				height: 28px;
+				line-height: 28px;
+				padding: 12px;
+				>span{
+					margin-right: 18px;
+				}
+				>a{
+					display: inline-block;
+					overflow: hidden;
+					padding: 0 12px;
+					.font12;
+					margin-left: 12px;
+				}
+				>a.btn-lgold{
+					color: #d09e40;
+				    border: 1px solid #d09e40;
+				    background: #F5F5F5;
+				}
+				>a:hover.btn-lgold{
+					.bg-bai;
+				}
+				>a.btn-bgold{
+				    border: 1px solid #dfb15b;
+				    .col-bai;
+				    background-color: #d09e40;
+				}
+				>a:hover.btn-bgold{
+					color: #dfb15b;
+					.bg-bai;
+				}
+			}
+		}
+	}
+}
+.userpage{
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	.text-ac;
+	>a{
+		display: inline-block;
+		color: #AAA;
+	    background-color: #FAFAFA;
+	    text-align: center;
+	    min-width: 20px;
+	    padding: 12px 8px;
+	    border: 1px solid #ddd;
+	}
+	>span{
+		display: inline-block;
+		color: #AAA;
+	    background-color: #FAFAFA;
+	    text-align: center;
+	    min-width: 20px;
+	    padding: 12px 8px;
+	    border: 1px solid #ddd;
+	}
+	.active{
+		border-color: #d09e40!important;
+	    color: #d09e40!important;
+	}
+	>a.first,>a.last{
+		margin: 0 8px;
+	}
 }
