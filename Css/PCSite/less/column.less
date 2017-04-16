@@ -1874,3 +1874,280 @@ div:hover.column-newsale,div:active.column-newsale{
 		}
 	}
 }
+
+
+/* 登录注册 */
+.login{
+	display: block;
+	overflow: hidden;
+	height: 480px;
+	background: url(../../UploadFile/register-bg.jpg) center center no-repeat;
+	.login-container{
+		width: 440px;
+		margin: 80px auto 0 auto;
+		.bg-bai;
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		.login-header{
+			padding-top: 20px;
+		    padding-bottom: 10px;
+		    .login-title{
+		    	font-size: 24px;
+			    padding-left: 15px;
+			    line-height: 1.5;
+			    color: #666;
+		    }
+		}
+		.login-w{
+			display: block;
+			overflow: hidden;
+			padding: 0 20px;
+			.login-safe{
+				padding-top: 20px;
+			    position: relative;
+			    a{
+			    	color: #08c;
+				    text-decoration: underline;
+			    }
+			    .forget-pw-safe{
+			    	position: absolute;
+				    right: 0;
+				    top: 20px;
+				    margin: 0;
+				    >a{
+			    	    padding-right: 20px;
+					    background: url(../../Images/ask.png) right 0 no-repeat;
+				    }
+			    }
+			}
+			.login-submit{
+				padding: 10px 0 20px;
+				>input[type="button"]{
+					display: inline;
+				    padding: 10px 10px;
+				    font-size: 16px;
+				    width: 100%;
+				    color: #FFF;
+				    text-align: center;
+				    cursor: pointer;
+				    border: none;
+				    border-radius: 2px;
+				}
+			}
+			.login-wechat{
+				padding-bottom: 30px;
+				>a{
+					display: inline-block;
+					width: 44px;
+					height: 44px;
+					border: 1px solid #ddd;
+				    border-radius: 50%;
+				    -webkit-border-radius: 50%;
+				    -moz-border-radius: 50%;
+				    line-height: 44px;
+				    text-align: center;
+				    img{
+				    	width: auto;
+				    	vertical-align: middle;
+				    }
+				}
+			}
+		}
+		.formlogin{
+			display: block;
+			overflow: hidden;
+			>div{
+				display: block;
+				overflow: hidden;
+				position: relative;
+				>label{
+					position: absolute;
+				    z-index: 3;
+				    top: 1px;
+				    left: 0;
+					width: 46px;
+				    height: 44px;
+				    background-repeat: no-repeat;
+				    border-right: 1px solid #ccc;
+				}
+				.name-label{
+				    background-image: url(../../Images/pwd-icons.png);
+				    background-position: 10px center;
+				}
+				.pwd-label{
+					background-image: url(../../Images/pwd-icons.png);
+				    background-position: -30px center;
+				}
+				>input{
+					width: 320px;
+				    height: 30px;
+			        background-color: #fff;
+				    border: 1px solid #ccc;
+			        display: inline-block;
+				    padding: 7px 10px 7px 70px;
+				    margin-bottom: 10px;
+				    font-size: 14px;
+				    line-height: 20px;
+				    color: #555;
+				    vertical-align: middle;
+				}
+			}
+		}
+	}
+}
+.reg{
+	display: block;
+	overflow: hidden;
+	height: 740px;
+	background: url(../../UploadFile/register-bg.jpg) center center no-repeat;
+	.reg-container{
+		display: block;
+		margin: 80px auto 0 auto;
+		width: 718px;
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		.bg-bai;
+		.reg-header{
+			padding-top: 20px;
+		    padding-bottom: 10px;
+		    .reg-title{
+		    	font-size: 24px;
+			    padding-left: 15px;
+			    line-height: 1.5;
+			    color: #666;
+		    }
+		}
+		.reg-w{
+			display: block;
+			width: 676px;
+		    padding: 0 20px;
+		    margin: 0 auto;
+		    background-color: #fff;
+		    overflow: hidden;
+		}
+		.reg-process{
+			width: 676px;
+			display: block;
+			overflow: hidden;
+			img{
+				width: 100%;
+				vertical-align: top;
+			}
+		}
+		.reg-error{
+			color: red;
+		    cursor: default;
+		    img{
+		    	vertical-align: middle;
+		    }
+		}
+		.register_form{
+			.reg-pwd,.reg-tel{
+				padding-top: 20px;
+				.reg-pwd-l,.reg-tel-l{
+					float: left;
+				    width: 24.99%;
+				    text-align: right;
+				    img{
+				    	height: auto;
+					    max-width: 100%;
+					    vertical-align: middle;
+					    padding-right: 25px;
+				    }
+				}
+				.reg-pwd-r,.reg-tel-r{
+					float: left;
+				    width: 74.99%;
+				    input[type="text"],input[type="password"]{
+				    	display: inline-block;
+				    	width: 206px;
+					    height: 20px;
+					    padding: 7px 10px;
+					    margin-bottom: 10px;
+					    font-size: 14px;
+					    line-height: 20px;
+					    color: #555;
+					    vertical-align: middle;
+					    background-color: #fff;
+					    border: 1px solid #ccc;
+					    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+					    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+					    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+					    -webkit-transition: border linear .2s,box-shadow linear .2s;
+					    -moz-transition: border linear .2s,box-shadow linear .2s;
+					    -o-transition: border linear .2s,box-shadow linear .2s;
+					    transition: border linear .2s,box-shadow linear .2s;
+				    }
+				    .btn-getcode{
+			    	    display: inline;
+		    	        font-size: 16px;
+		    	        text-align: center;
+			    	    padding: 8px 10px;
+					    margin-bottom: 10px;
+					    margin-left: 10px;
+					    border: none;
+				        -webkit-box-sizing: border-box;
+					    -moz-box-sizing: border-box;
+					    box-sizing: border-box;
+					    vertical-align: top;
+				    }
+				    .reg-pwd2{
+				    	clear: both;
+					    padding-top: 10px;
+				    }
+				}
+				.reg-pwd-msg{
+					.on{
+						display: inline-block;
+					}
+					li{
+						width: 76px;
+					    float: left;
+					    text-align: center;
+					    color: #fff;
+					    line-height: 20px;
+					}
+					.weak{
+						background-color: #ff5757;
+					}
+					.normal{
+						background-color: #ffa657;
+					}
+					.strong{
+					    background-color: #ffd557;
+					}
+				}
+			}
+			.solid-line{
+			    width: 90%;
+			    height: 40px;
+			    border-bottom: 1px solid #ccc;
+			    margin: 0 auto;
+			}
+			.reg-pwd{
+				padding-top: 40px;
+
+			}
+			.reg-protocol{
+				padding-top: 40px;
+			    padding-left: 24.99%;
+			}
+			.reg-submit{
+				padding-top: 10px;
+			    padding-bottom: 40px;
+			    padding-left: 24.99%;
+			    .registerbtn{
+			    	width: 228px;
+			    	padding: 8px 10px;
+				    margin-bottom: 10px;
+				    border: none;
+				    border-radius: 2px;
+			    }
+			}
+		}
+	}
+}

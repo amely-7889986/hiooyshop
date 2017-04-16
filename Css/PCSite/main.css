@@ -3038,6 +3038,304 @@ div:active.column-newsale {
   display: block;
   overflow: hidden;
 }
+/* 登录注册 */
+.login {
+  display: block;
+  overflow: hidden;
+  height: 480px;
+  background: url(../../UploadFile/register-bg.jpg) center center no-repeat;
+}
+.login .login-container {
+  width: 440px;
+  margin: 80px auto 0 auto;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.login .login-container .login-header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.login .login-container .login-header .login-title {
+  font-size: 24px;
+  padding-left: 15px;
+  line-height: 1.5;
+  color: #666;
+}
+.login .login-container .login-w {
+  display: block;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.login .login-container .login-w .login-safe {
+  padding-top: 20px;
+  position: relative;
+}
+.login .login-container .login-w .login-safe a {
+  color: #08c;
+  text-decoration: underline;
+}
+.login .login-container .login-w .login-safe .forget-pw-safe {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin: 0;
+}
+.login .login-container .login-w .login-safe .forget-pw-safe > a {
+  padding-right: 20px;
+  background: url(../../Images/ask.png) right 0 no-repeat;
+}
+.login .login-container .login-w .login-submit {
+  padding: 10px 0 20px;
+}
+.login .login-container .login-w .login-submit > input[type="button"] {
+  display: inline;
+  padding: 10px 10px;
+  font-size: 16px;
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
+.login .login-container .login-w .login-wechat {
+  padding-bottom: 30px;
+}
+.login .login-container .login-w .login-wechat > a {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+}
+.login .login-container .login-w .login-wechat > a img {
+  width: auto;
+  vertical-align: middle;
+}
+.login .login-container .formlogin {
+  display: block;
+  overflow: hidden;
+}
+.login .login-container .formlogin > div {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.login .login-container .formlogin > div > label {
+  position: absolute;
+  z-index: 3;
+  top: 1px;
+  left: 0;
+  width: 46px;
+  height: 44px;
+  background-repeat: no-repeat;
+  border-right: 1px solid #ccc;
+}
+.login .login-container .formlogin > div .name-label {
+  background-image: url(../../Images/pwd-icons.png);
+  background-position: 10px center;
+}
+.login .login-container .formlogin > div .pwd-label {
+  background-image: url(../../Images/pwd-icons.png);
+  background-position: -30px center;
+}
+.login .login-container .formlogin > div > input {
+  width: 320px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 7px 10px 7px 70px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  vertical-align: middle;
+}
+.reg {
+  display: block;
+  overflow: hidden;
+  height: 740px;
+  background: url(../../UploadFile/register-bg.jpg) center center no-repeat;
+}
+.reg .reg-container {
+  display: block;
+  margin: 80px auto 0 auto;
+  width: 718px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+.reg .reg-container .reg-header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.reg .reg-container .reg-header .reg-title {
+  font-size: 24px;
+  padding-left: 15px;
+  line-height: 1.5;
+  color: #666;
+}
+.reg .reg-container .reg-w {
+  display: block;
+  width: 676px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.reg .reg-container .reg-process {
+  width: 676px;
+  display: block;
+  overflow: hidden;
+}
+.reg .reg-container .reg-process img {
+  width: 100%;
+  vertical-align: top;
+}
+.reg .reg-container .reg-error {
+  color: red;
+  cursor: default;
+}
+.reg .reg-container .reg-error img {
+  vertical-align: middle;
+}
+.reg .reg-container .register_form .reg-pwd,
+.reg .reg-container .register_form .reg-tel {
+  padding-top: 20px;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-l,
+.reg .reg-container .register_form .reg-tel .reg-pwd-l,
+.reg .reg-container .register_form .reg-pwd .reg-tel-l,
+.reg .reg-container .register_form .reg-tel .reg-tel-l {
+  float: left;
+  width: 24.99%;
+  text-align: right;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-l img,
+.reg .reg-container .register_form .reg-tel .reg-pwd-l img,
+.reg .reg-container .register_form .reg-pwd .reg-tel-l img,
+.reg .reg-container .register_form .reg-tel .reg-tel-l img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  padding-right: 25px;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-r,
+.reg .reg-container .register_form .reg-tel .reg-pwd-r,
+.reg .reg-container .register_form .reg-pwd .reg-tel-r,
+.reg .reg-container .register_form .reg-tel .reg-tel-r {
+  float: left;
+  width: 74.99%;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-r input[type="text"],
+.reg .reg-container .register_form .reg-tel .reg-pwd-r input[type="text"],
+.reg .reg-container .register_form .reg-pwd .reg-tel-r input[type="text"],
+.reg .reg-container .register_form .reg-tel .reg-tel-r input[type="text"],
+.reg .reg-container .register_form .reg-pwd .reg-pwd-r input[type="password"],
+.reg .reg-container .register_form .reg-tel .reg-pwd-r input[type="password"],
+.reg .reg-container .register_form .reg-pwd .reg-tel-r input[type="password"],
+.reg .reg-container .register_form .reg-tel .reg-tel-r input[type="password"] {
+  display: inline-block;
+  width: 206px;
+  height: 20px;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-r .btn-getcode,
+.reg .reg-container .register_form .reg-tel .reg-pwd-r .btn-getcode,
+.reg .reg-container .register_form .reg-pwd .reg-tel-r .btn-getcode,
+.reg .reg-container .register_form .reg-tel .reg-tel-r .btn-getcode {
+  display: inline;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-r .reg-pwd2,
+.reg .reg-container .register_form .reg-tel .reg-pwd-r .reg-pwd2,
+.reg .reg-container .register_form .reg-pwd .reg-tel-r .reg-pwd2,
+.reg .reg-container .register_form .reg-tel .reg-tel-r .reg-pwd2 {
+  clear: both;
+  padding-top: 10px;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-msg .on,
+.reg .reg-container .register_form .reg-tel .reg-pwd-msg .on {
+  display: inline-block;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-msg li,
+.reg .reg-container .register_form .reg-tel .reg-pwd-msg li {
+  width: 76px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  line-height: 20px;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-msg .weak,
+.reg .reg-container .register_form .reg-tel .reg-pwd-msg .weak {
+  background-color: #ff5757;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-msg .normal,
+.reg .reg-container .register_form .reg-tel .reg-pwd-msg .normal {
+  background-color: #ffa657;
+}
+.reg .reg-container .register_form .reg-pwd .reg-pwd-msg .strong,
+.reg .reg-container .register_form .reg-tel .reg-pwd-msg .strong {
+  background-color: #ffd557;
+}
+.reg .reg-container .register_form .solid-line {
+  width: 90%;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+}
+.reg .reg-container .register_form .reg-pwd {
+  padding-top: 40px;
+}
+.reg .reg-container .register_form .reg-protocol {
+  padding-top: 40px;
+  padding-left: 24.99%;
+}
+.reg .reg-container .register_form .reg-submit {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 24.99%;
+}
+.reg .reg-container .register_form .reg-submit .registerbtn {
+  width: 228px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 2px;
+}
 .bottom-banner {
   display: block;
   overflow: hidden;
