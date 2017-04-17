@@ -2666,6 +2666,69 @@ div:active.column-newsale {
   border-bottom: solid 1px #E7E7E7;
   font-size: 12px;
 }
+.userinner .ordertable table.title .collectbox {
+  overflow: hidden;
+}
+.userinner .ordertable table.title .collectbox td a.propic {
+  display: block;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.userinner .ordertable table.title .collectbox td a.propic img {
+  width: 100%;
+  vertical-align: top;
+}
+.userinner .ordertable table.title .collectbox td a.proname {
+  display: inline-block;
+  width: 300px;
+  float: left;
+}
+.userinner .ordertable table.title .collectbox td a.proname > span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  line-height: 24px;
+}
+.userinner .ordertable table.title .collectbox td a.prostore {
+  color: #d09e40;
+}
+.userinner .ordertable table.title .collectbox td a:hover.prostore {
+  color: #2d87d9;
+}
+.userinner .ordertable table.title .collectbox td a.btn-delete {
+  display: inline-block;
+  overflow: hidden;
+  width: 48px;
+  padding: 4px 0;
+}
+.userinner .ordertable table.title .collectbox td a.btn-delete i.icon-trash {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+  line-height: 24px;
+  padding-bottom: 4px;
+  vertical-align: text-top;
+  background-image: url(../../Images/glyphicons-halflings.png);
+  background-position: -456px 0;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.userinner .ordertable table.title .collectbox td a.btn-delete > span.txt {
+  display: block;
+  overflow: hidden;
+  color: #666;
+}
+.userinner .ordertable table.title .collectbox td a:hover.btn-delete {
+  background-color: #dfb15b;
+}
+.userinner .ordertable table.title .collectbox td a:hover.btn-delete > span.txt {
+  color: #fff;
+}
 .userinner .ordertable table.orderbox {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -2769,6 +2832,59 @@ div:active.column-newsale {
 .userinner .ordertable table.orderbox td.orderpaysec > a:hover.btn-bgold {
   color: #dfb15b;
   background-color: #fff;
+}
+.userinner .user-select {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  height: 20px;
+  padding: 5px 0;
+}
+.userinner .user-select .selectall {
+  display: inline-block;
+  float: left;
+}
+.userinner .user-select .selectall input[type="checkbox"] {
+  margin: 0 4px 0 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.userinner .user-select .selectall > span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.userinner .user-select a.btn-delete {
+  color: #777;
+  background-color: #F5F5F5;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  height: 20px;
+  padding: 0 10px;
+  margin-right: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DCDCDC #DCDCDC #B3B3B3 #DCDCDC;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 12px;
+}
+.userinner .user-select a.btn-delete i.icon-trash {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  background-image: url(../../Images/glyphicons-halflings.png);
+  background-position: -456px 0;
+  background-repeat: no-repeat;
+}
+.userinner .user-select a:hover.btn-delete {
+  color: #d09e40;
+  text-decoration: none;
+  background-color: #E6E6E6;
+  border-color: #CFCFCF #CFCFCF #B3B3B3 #CFCFCF;
 }
 .userpage {
   display: block;
