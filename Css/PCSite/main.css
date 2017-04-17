@@ -3336,6 +3336,42 @@ div:active.column-newsale {
   border: none;
   border-radius: 2px;
 }
+.reg .reg-container .reg-finish {
+  display: block;
+  overflow: hidden;
+  margin: 34px auto;
+  width: 300px;
+}
+.reg .reg-container .reg-finish .pic {
+  display: block;
+  float: left;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+}
+.reg .reg-container .reg-finish .pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.reg .reg-container .reg-finish .text {
+  display: block;
+  overflow: hidden;
+  margin-left: 24px;
+  float: left;
+}
+.reg .reg-container .reg-finish .text h3 {
+  line-height: 48px;
+}
+.reg .reg-container .reg-finish .text .btnbox {
+  display: block;
+  overflow: hidden;
+  margin-top: 14px;
+}
+.reg .reg-container .reg-finish .text .btnbox > a {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
 .bottom-banner {
   display: block;
   overflow: hidden;
