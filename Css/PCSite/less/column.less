@@ -1719,6 +1719,99 @@ div:hover.column-newsale,div:active.column-newsale{
 		    border-color: #CFCFCF #CFCFCF #B3B3B3 #CFCFCF;
 		}
 	}
+	.notice{
+		display: block;
+		overflow: hidden;
+		padding: 9px 14px;
+	    margin: 10px auto;
+	    border: 1px solid #FBEED5;
+	    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	    h4{
+	    	font-size: 16px;
+		    font-weight: 700;
+		    line-height: 1.5em;
+		    margin-bottom: 2px;
+	    }
+	    ul{
+	    	.font12;
+	    	li{
+	    		display: block;
+	    		overflow: hidden;
+    		    padding: 6px 0;
+	    	}
+	    }
+	}
+	.notice-success{
+		color: #468847;
+	    background-color: #DFF0D8;
+	    border-color: #D6E9C6;
+	}
+	.userinerform{
+		display: block;
+		overflow: hidden;
+		dl{
+			font-size: 0;
+		    line-height: 20px;
+		    clear: both;
+		    padding: 0;
+		    margin: 0;
+		    border-bottom: dotted 1px #E6E6E6;
+		    overflow: hidden;
+		    dt,dd{
+		    	font-size: 12px;
+			    line-height: 32px;
+			    vertical-align: top;
+			    letter-spacing: normal;
+			    word-spacing: normal;
+			    text-align: right;
+			    display: inline-block;
+			    width: 14%;
+			    padding: 10px 1% 10px 0;
+		    }
+		    dt{
+		    	i.required{
+		    		font: 12px/16px Tahoma;
+				    color: #F30;
+				    vertical-align: middle;
+				    margin-right: 4px;
+		    	}
+		    }
+		    dd{
+		    	text-align: left;
+			    width: 85%;
+			    padding: 10px 0 10px 0;
+			    select.auth_type{
+			    	display: inline-block;
+			    	width: 220px;
+		    	    color: #777;
+				    background-color: #FFF;
+				    height: 30px;
+				    vertical-align: middle;
+				    padding: 4px;
+				    border: solid 1px #CCC;
+			    }
+			    a.send_auth_code{
+			    	color: #777!important;
+				    background-color: #F5F5F5;
+				    text-align: center;
+				    vertical-align: middle;
+				    display: inline-block;
+				    height: 20px;
+				    padding: 4px 12px;
+				    border: solid 1px;
+				    border-color: #DCDCDC #DCDCDC #B3B3B3 #DCDCDC;
+				    cursor: pointer;
+				    margin-left: 5px!important;
+				    line-height: 20px;
+			    }
+			    a:hover.send_auth_code{
+			    	color: #999!important;
+				    background-color: transparent;
+				    border-color: #CFCFCF #CFCFCF #B3B3B3 #CFCFCF;
+			    }
+		    }
+		}
+	}
 }
 .userpage{
 	display: block;
