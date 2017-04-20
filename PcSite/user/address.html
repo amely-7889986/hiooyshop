@@ -113,45 +113,31 @@
                     <div class="notice notice-success">
                         <h4>操作提示：</h4>
                         <ul>
-                            <li>1. 请正确输入下方图形验证码，如看不清可点击图片进行更换，输入完成后进行下一步操作。</li>
-                            <li>2. 收到安全验证码后，请在30分钟内完成验证。</li>
+                            <li>最多可保存5个有效地址</li>
                         </ul>
                     </div>
-                    <div class="userinerform">
-                        <dl>
-                            <dt><i class="required">*</i>选择身份认证方式：</dt>
-                            <dd>
-                                <p>
-                                    <span>
-                                        <select name="auth_type" class="auth_type">
-                                            <option value="mobile">手机 [184****3361]</option>
-                                        </select>
-                                    </span>
-                                    <a href="javascript:void(0)" class="send_auth_code">
-                                        <span id="sending" style="display: none;">正在</span><span class="send_success_tips" style="display: none;"><strong id="show_times" class="red mr5">0</strong>秒后再次</span>获取安全验证码
-                                    </a>
-                                </p>
-                                <p class="send_success_tips" style="display: block;">“安全验证码”已发出，请注意查收，请在<strong>“30分种”</strong>内完成验证。</p>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt><i class="required">*</i>请输入安全验证码：</dt>
-                            <dd>
-                                <input type="text" class="text" maxlength="6" value="" name="auth_code" >
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt><i class="required">*</i>图形验证码：</dt>
-                            <dd>
-                                <input type="text" name="captcha" class="text" id="captcha" maxlength="4" size="10" autocomplete="off">
-                                <img src="http://shop1.test.hiooy.com/index.php?act=seccode&amp;op=makecode&amp;nchash=b98c68bb" name="codeimage" border="0" id="codeimage" class="codepic"><a href="javascript:void(0)" class="ml10 col-blue" onclick="javascript:document.getElementById('codeimage').src='http://shop1.test.hiooy.com/index.php?act=seccode&amp;op=makecode&amp;nchash=b98c68bb&amp;t=' + Math.random();">看不清？换张图</a>
-                                <label for="auth_code" class="error"><i class="icon-exclamation-sign"></i>请正确输入验证码</label>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt></dt>
-                            <dd><input type="button" class="btn-change" value="确认，进入下一步"></dd>
-                        </dl>
+                    <div class="addressbox">
+                        <table class="address">
+                            <tr class="title">
+                                <td width="80">收货人</td>
+                                <td width="120">所在地区</td>
+                                <td width="200">街道地址</td>
+                                <td width="120">身份证</td>
+                                <td width="120">手机号码</td>
+                                <td width="200">操作</td>
+                            </tr>
+                            <tr class="info">
+                                <td>张楚唯</td>
+                                <td>广东省 广州市 白云区</td>
+                                <td>广州大道北1239号</td>
+                                <td>441502199308118888</td>
+                                <td>18402003361</td>
+                                <td>
+                                    <a href="javascript:void(0)" style="border-right: 1px solid #ddd;"><i class="icon-edit"></i><span>编辑</span></a>
+                                    <a href="javascript:void(0)"><i class="icon-cancel"></i><span>删除</span></a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
