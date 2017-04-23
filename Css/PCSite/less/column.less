@@ -1410,6 +1410,10 @@ div:hover.column-newsale,div:active.column-newsale{
 	    background-color: #F5F5F5;
 	    border-radius: 4px;
 	    line-height: 38px;
+	    >a{
+	    	padding: 0 8px;
+	    	.font12;
+	    }
 	}
 	.order-search{
 		display: block;
@@ -1854,6 +1858,17 @@ div:hover.column-newsale,div:active.column-newsale{
 					    background-repeat: no-repeat;
 				    }
 			    }
+			    select{
+		    	    color: #777;
+				    background-color: #FFF;
+				    height: 30px;
+				    vertical-align: middle;
+				    padding: 0 4px;
+				    border: solid 1px #CCC;
+				    outline: 0;
+				    line-height: 30px;
+				    width: 80px;
+			    }
 		    }
 		}
 		dl:hover{
@@ -1978,6 +1993,104 @@ div:hover.column-newsale,div:active.column-newsale{
 					}
 				}
 			}
+		}
+	}
+	.userhead{
+		width: 120px;
+		vertical-align: top;
+	    display: inline-block;
+	    margin-top: 5px;
+	    .picbox{
+    	    text-align: center;
+		    vertical-align: middle;
+		    display: table-cell;
+		    width: 120px;
+		    height: 120px;
+		    overflow: hidden;
+		    border: 1px solid #ddd;
+		    img{
+		    	width: auto;
+		    	vertical-align: top;
+		    }
+	    }
+	    .btnbox{
+	    	display: block;
+	    	overflow: hidden;
+	    	margin: 10px 0;
+	    	.selectfile{
+	    		width: 58px;
+	    		height: 20px;
+	    		display: inline-block;
+	    		margin-right: 4px;
+	    		position: relative;
+	    		border: 1px solid #aaa;
+    			border-radius: 2px;
+    			box-sizing: border-box;
+    			line-height: 20px;
+    			background-color: #eee;
+	    		a{
+	    			display: inline-block;
+	    			overflow: hidden;
+	    			width: 58px;
+	    			height: 20px;
+	    			.font12;
+	    			.text-ac;
+	    		}
+	    		input{
+	    			opacity: 0;
+	    			filter:alpha(opacity=0);
+	    			position: absolute;
+	    			margin-top: -43px;
+	    			width: 100%;
+	    			height: 43px;
+	    			z-index: 100;cursor: pointer;
+	    		}
+	    	}
+	    	.upload{
+	    		width: 58px;
+	    		height: 20px;
+	    		display: inline-block;
+	    		position: relative;
+	    		border: 1px solid #aaa;
+    			border-radius: 2px;
+    			box-sizing: border-box;
+    			line-height: 20px;
+    			background-color: #eee;
+    			a{
+    				display: inline-block;
+	    			overflow: hidden;
+	    			width: 58px;
+	    			height: 20px;
+	    			.font12;
+	    			.text-ac;
+    			}
+	    	}
+	    	ul.filelist{
+	    		display: block;
+	    		overflow: hidden;
+	    		position: relative;
+	    		padding: 20px 0!important;
+	    		width: 120px;
+	    		li{
+	    			display: block;
+	    			width: 120px;
+	    		}
+	    	}
+	    }
+	}
+	.editform{
+		display: block;
+		overflow: hidden;
+		width: 720px;
+		dl{
+			dd{
+				span{
+					display: inline-block;
+				}
+			}
+		}
+		.w400{
+			width: 400px;
 		}
 	}
 }
@@ -2253,7 +2366,98 @@ div:hover.column-newsale,div:active.column-newsale{
 		}
 	}
 }
-
+.layer-edit{
+	display: block;
+	overflow: hidden;
+	.address_form{
+		display: block;
+		overflow: hidden;
+		width: 550px;
+		dl{
+			line-height: 20px;
+			dt,dd{
+		    	font-size: 12px;
+			    line-height: 32px;
+			    vertical-align: top;
+			    letter-spacing: normal;
+			    word-spacing: normal;
+			    text-align: right;
+			    display: inline-block;
+			    width: 19%;
+			    padding: 8px 1% 8px 0;
+		    }
+			dt{
+			    i.required{
+		    	    color: #F30;
+				    vertical-align: middle;
+				    margin-right: 4px;
+			    }
+			}
+			dd{
+				text-align: left;
+			    width: 76%;
+			    padding: 10px 0 0 0;
+			    input{
+			    	color: #777;
+				    background-color: #FFF;
+				    vertical-align: top;
+				    display: inline-block;
+				    height: 20px;
+				    padding: 4px;
+				    border: solid 1px #CCC;
+				    outline: 0 none;
+			    }
+			    select{
+			    	color: #777;
+				    background-color: #FFF;
+				    height: 30px;
+				    vertical-align: middle;
+				    padding: 4px;
+				    border: solid 1px #CCC;
+			    }
+			    .w300{
+			    	width: 300px;
+			    }
+			    .w200{
+			    	width: 200px;
+			    }
+			}
+		}
+		.bottom{
+			background-color: #F9F9F9;
+		    text-align: center;
+		    border-top: 1px solid #EAEAEA;
+		    margin-top: 12px;
+		    .submit-border{
+		    	display: inline-block;
+		    	overflow: hidden;
+	    	    margin: 10px auto;
+	    	    input{
+	    	    	border: 0;
+	    	    	text-align: center;
+				    min-width: 100px;
+				    height: 36px
+	    	    }
+		    }
+		    .btn-cancel{
+		    	display: inline-block;
+		    	overflow: hidden;
+		    	margin: 9px auto;
+			    background-color: transparent;
+			    border-radius: 2px;
+			    font-size: 14px;
+			    vertical-align: top;
+			    padding: 8px 19px;
+		        border: solid 1px;
+			    border-color: #DCDCDC #DCDCDC #B3B3B3 #DCDCDC;
+			    cursor: pointer;
+			    height: 20px;
+			    .text-ac;
+			    color: #777;
+		    }
+		}
+	}
+}
 
 /* 登录注册 */
 .login{

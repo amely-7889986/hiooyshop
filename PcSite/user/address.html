@@ -109,6 +109,7 @@
                 <div class="l-left userinner">
                     <div class="locate-tit">
                         <span class="fontw6 col-hei">账户管理</span>><span class="col-hei">收货地址</span>
+                        <a href="javascript:;" class="l-right btn-primary editaddress">新增地址</a>
                     </div>
                     <div class="notice notice-success">
                         <h4>操作提示：</h4>
@@ -133,7 +134,7 @@
                                 <td>441502199308118888</td>
                                 <td>18402003361</td>
                                 <td>
-                                    <a href="javascript:void(0)" style="border-right: 1px solid #ddd;"><i class="icon-edit"></i><span>编辑</span></a>
+                                    <a href="javascript:void(0)" style="border-right: 1px solid #ddd;" class="editaddress"><i class="icon-edit"></i><span>编辑</span></a>
                                     <a href="javascript:void(0)"><i class="icon-cancel"></i><span>删除</span></a>
                                 </td>
                             </tr>
@@ -160,8 +161,82 @@
         </div>
     </div>
 
+    <div class="layer-edit">
+        <div class="address_form">
+          <dl>
+            <dt><i class="required">*</i>收货人：</dt>
+            <dd>
+              <input type="text" class="text w100" name="true_name" value="">
+              <p class="col-hui">请填写您的真实姓名</p>
+            </dd>
+          </dl>
+          <dl>
+            <dt><i class="required">*</i>所在地区：</dt>
+            <dd>
+              <div id="region">
+                <select class="valid">
+                    <option>-请选择-</option><option value="1">北京市</option><option value="2">天津市</option><option value="3">河北省</option><option value="4">山西省</option><option value="5">内蒙古自治区</option><option value="6">辽宁省</option><option value="7">吉林省</option><option value="8">黑龙江省</option><option value="9">上海市</option><option value="10">江苏省</option><option value="11">浙江省</option><option value="12">安徽省</option><option value="13">福建省</option><option value="14">江西省</option><option value="15">山东省</option><option value="16">河南省</option><option value="17">湖北省</option><option value="18">湖南省</option><option value="19">广东省</option><option value="20">广西壮族自治区</option><option value="21">海南省</option><option value="22">重庆市</option><option value="23">四川省</option><option value="24">贵州省</option><option value="25">云南省</option><option value="26">西藏自治区</option><option value="27">陕西省</option><option value="28">甘肃省</option><option value="29">青海省</option><option value="30">宁夏回族自治区</option><option value="31">新疆维吾尔自治区</option>
+                </select>
+              </div>
+            </dd>
+          </dl>
+          <dl>
+            <dt><i class="required">*</i>街道地址：</dt>
+            <dd>
+              <input class="text w300" type="text" name="address" value="">
+              <p class="col-hui">不必重复填写地区</p>
+            </dd>
+          </dl>
+          <dl>
+            <dt><i class="required">*</i>手机号码：</dt>
+            <dd>
+              <input type="text" class="text w200" name="mob_phone" value="">
+            </dd>
+          </dl>
+          <dl>
+            <dt>身份证</dt>
+            <dd>
+              <input type="text" class="text w200" name="id_card" value="">
+              <p class="col-hui"></p>
+            </dd>
+          </dl>
+         <dl>
+            <dt></dt>
+            <dd>
+              若购买跨境产品，必须填写真实姓名和身份证号码
+            </dd>
+          </dl>
+                <dl>
+            <dt><em class="pngFix"></em>设为默认地址：</dt>
+            <dd>
+              <input type="checkbox" class="checkbox" value="1">
+              <label for="">设置为默认收货地址</label>
+            </dd>
+          </dl>
+                
+          <div class="bottom">
+            <label class="submit-border">
+              <input type="submit" class="btn-primary" value="新增地址">
+            </label>
+            <a class="btn-cancel" href="">取消</a> </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="../../Js/PCSite/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="../../Js/PCSite/swiper.min.js"></script>
+    <script type="text/javascript" src="../../Js/PCSite/layer.js"></script>
+    <script>
+        $('.editaddress').on('click', function(){
+            layer.open({
+              type: 1,
+              shade: false,
+              closeBtn: 1,
+              title: '新增地址',
+              area: ['550px', '498px'],
+              content: $('.layer-edit'), //捕获的元素，注意：最好该指定的元素要存放在body最外层，否则可能被其它的相对元素所影响
+            });
+        });
+    </script>
     <script type="text/javascript" src="../../Js/PCSite/laydate.js"></script>
     <script>
         $(document).ready(function() {
